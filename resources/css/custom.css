@@ -1,3 +1,70 @@
+/* general */
+
+.steps, .legend {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.steps li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.steps li:before {
+	content: "";
+}
+
+.steps a {
+	border: 1px solid #000;
+	/*	border-radius: 50%; */
+	display: inline-block;
+	height: 1.3em;
+	line-height: 1.3em;
+	margin: 0;
+	text-align: center;
+	width: 1.3em;
+	text-shadow: none;
+	text-decoration: none;
+	color: #000;
+}
+
+.steps a:hover, .steps .current {
+	background: #000;
+	color: #FFF;
+}
+
+.legend {
+	text-align: right;
+}
+
+.legend li {
+	display: inline-block;
+	font-size: 22px;
+	margin-right: 1em;
+	padding-left: 0;
+}
+
+.legend li:before {
+	position: relative;
+	content:"\25A0";
+	padding: 0 0.3em 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	font-size: 1.6em;
+	line-height: 1;
+}
+
+.legend li.none:before {
+	content:"";
+}
+
+
+/* step specific */
+
 #step-1 h1 {
 	font-size: 86px;
 }
+

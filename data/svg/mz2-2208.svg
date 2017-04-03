@@ -1,0 +1,901 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1770pt" height="1805pt" viewBox="0.00 0.00 1770.00 1805.20">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1801.2)">
+<title>d1e1143</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1801.2 1766,-1801.2 1766,4 -4,4"/>
+<text text-anchor="middle" x="881" y="-7.8" font-family="Times,serif" font-size="14.00">Powered by http://rhizomik.net</text>
+<!-- A6 -->
+<g id="node1" class="node">
+            <title>A6</title>
+<polygon fill="none" stroke="black" points="1169,-1247.2 1108,-1247.2 1108,-1217.2 1169,-1217.2 1169,-1247.2"/>
+<text text-anchor="middle" x="1138.5" y="-1235.2" font-family="Times,serif" font-size="10.00">bio:Death:</text>
+<text text-anchor="middle" x="1138.5" y="-1224.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- &quot;1119&#45;05&#45;18&quot; -->
+<g id="node2" class="node">
+            <title>"1119-05-18"</title>
+<text text-anchor="middle" x="1608.5" y="-1427.7" font-family="Times,serif" font-size="10.00">"1119-05-18"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- A6&#45;&gt;&quot;1119&#45;05&#45;18&quot; -->
+<g id="edge1" class="edge">
+            <title>A6-&gt;"1119-05-18"</title>
+<path fill="none" stroke="blue" d="M1169.02,-1231.13C1212.69,-1230.54 1296.39,-1233.23 1362,-1258.2 1451.51,-1292.27 1539.21,-1366.25 1581.43,-1405.15"/>
+<polygon fill="blue" stroke="blue" points="1579.07,-1407.73 1588.78,-1411.99 1583.84,-1402.61 1579.07,-1407.73"/>
+<text text-anchor="middle" x="1408.5" y="-1302.2" font-family="Times,serif" font-size="10.00">dc:date</text>
+</g>
+<!-- A4 -->
+<g id="node3" class="node">
+            <title>A4</title>
+<polygon fill="none" stroke="black" points="640,-1765.2 546,-1765.2 546,-1735.2 640,-1735.2 640,-1765.2"/>
+<text text-anchor="middle" x="593" y="-1753.2" font-family="Times,serif" font-size="10.00">crm:E57_Material:</text>
+<text text-anchor="middle" x="593" y="-1742.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- &quot;Stein&quot; -->
+<g id="node4" class="node">
+            <title>"Stein"</title>
+<text text-anchor="middle" x="1138.5" y="-1776.7" font-family="Times,serif" font-size="10.00">"Stein"</text>
+</g>
+<!-- A4&#45;&gt;&quot;Stein&quot; -->
+<g id="edge2" class="edge">
+            <title>A4-&gt;"Stein"</title>
+<path fill="none" stroke="blue" d="M640.339,-1752.67C746.486,-1758.34 1005.45,-1772.15 1101.16,-1777.26"/>
+<polygon fill="blue" stroke="blue" points="1101.05,-1780.76 1111.22,-1777.8 1101.42,-1773.77 1101.05,-1780.76"/>
+<text text-anchor="middle" x="850.5" y="-1769.2" font-family="Times,serif" font-size="10.00">crm:P3_has_note</text>
+</g>
+<!-- A11 -->
+<g id="node5" class="node">
+            <title>A11</title>
+<polygon fill="none" stroke="black" points="645,-1684.2 541,-1684.2 541,-1654.2 645,-1654.2 645,-1684.2"/>
+<text text-anchor="middle" x="593" y="-1672.2" font-family="Times,serif" font-size="10.00">crm:E54_Dimension:</text>
+<text text-anchor="middle" x="593" y="-1661.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- A16 -->
+<g id="node6" class="node">
+            <title>A16</title>
+<polygon fill="none" stroke="black" points="1178.5,-1739.2 1098.5,-1739.2 1098.5,-1709.2 1178.5,-1709.2 1178.5,-1739.2"/>
+<text text-anchor="middle" x="1138.5" y="-1727.2" font-family="Times,serif" font-size="10.00">crm:E55_Type:</text>
+<text text-anchor="middle" x="1138.5" y="-1716.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- A11&#45;&gt;A16 -->
+<g id="edge3" class="edge">
+            <title>A11-&gt;A16</title>
+<path fill="none" stroke="blue" d="M645.131,-1674.37C749.366,-1684.92 985.234,-1708.79 1088.04,-1719.2"/>
+<polygon fill="blue" stroke="blue" points="1087.85,-1722.69 1098.15,-1720.22 1088.56,-1715.73 1087.85,-1722.69"/>
+<text text-anchor="middle" x="850.5" y="-1702.2" font-family="Times,serif" font-size="10.00">crm:P2_has_type</text>
+</g>
+<!-- &quot;45&quot; -->
+<g id="node7" class="node">
+            <title>"45"</title>
+<text text-anchor="middle" x="1138.5" y="-1666.7" font-family="Times,serif" font-size="10.00">"45"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- A11&#45;&gt;&quot;45&quot; -->
+<g id="edge4" class="edge">
+            <title>A11-&gt;"45"</title>
+<path fill="none" stroke="blue" d="M645.131,-1669.2C728.452,-1669.2 895.884,-1669.2 1012.23,-1669.2"/>
+<polygon fill="blue" stroke="blue" points="1012.27,-1672.7 1022.27,-1669.2 1012.27,-1665.7 1012.27,-1672.7"/>
+<text text-anchor="middle" x="850.5" y="-1672.2" font-family="Times,serif" font-size="10.00">crm:P9_has_value</text>
+</g>
+<!-- &quot;depth&quot; -->
+<g id="node35" class="node">
+            <title>"depth"</title>
+<text text-anchor="middle" x="1608.5" y="-1721.7" font-family="Times,serif" font-size="10.00">"depth"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- A16&#45;&gt;&quot;depth&quot; -->
+<g id="edge28" class="edge">
+            <title>A16-&gt;"depth"</title>
+<path fill="none" stroke="blue" d="M1178.6,-1724.2C1243.22,-1724.2 1375.15,-1724.2 1475.73,-1724.2"/>
+<polygon fill="blue" stroke="blue" points="1475.97,-1727.7 1485.97,-1724.2 1475.97,-1720.7 1475.97,-1727.7"/>
+<text text-anchor="middle" x="1408.5" y="-1727.2" font-family="Times,serif" font-size="10.00">rdf:label</text>
+</g>
+<!-- A13 -->
+<g id="node8" class="node">
+            <title>A13</title>
+<polygon fill="none" stroke="black" points="661,-1577.2 525,-1577.2 525,-1547.2 661,-1547.2 661,-1577.2"/>
+<text text-anchor="middle" x="593" y="-1565.2" font-family="Times,serif" font-size="10.00">crm:E44_Place_Appellation:</text>
+<text text-anchor="middle" x="593" y="-1554.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- A0 -->
+<g id="node9" class="node">
+            <title>A0</title>
+<polygon fill="none" stroke="black" points="1210,-1629.2 1067,-1629.2 1067,-1599.2 1210,-1599.2 1210,-1629.2"/>
+<text text-anchor="middle" x="1138.5" y="-1617.2" font-family="Times,serif" font-size="10.00">crm:E47_Spatial_Coordinates:</text>
+<text text-anchor="middle" x="1138.5" y="-1606.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- A13&#45;&gt;A0 -->
+<g id="edge5" class="edge">
+            <title>A13-&gt;A0</title>
+<path fill="none" stroke="blue" d="M661.189,-1568.63C761.201,-1578.2 948.953,-1596.16 1056.44,-1606.44"/>
+<polygon fill="blue" stroke="blue" points="1056.3,-1609.95 1066.59,-1607.42 1056.97,-1602.98 1056.3,-1609.95"/>
+<text text-anchor="middle" x="850.5" y="-1594.2" font-family="Times,serif" font-size="10.00">crm:P87_is_identified_by</text>
+</g>
+<!-- A14 -->
+<g id="node10" class="node">
+            <title>A14</title>
+<polygon fill="none" stroke="black" points="1193.5,-1577.2 1083.5,-1577.2 1083.5,-1547.2 1193.5,-1547.2 1193.5,-1577.2"/>
+<text text-anchor="middle" x="1138.5" y="-1565.2" font-family="Times,serif" font-size="10.00">crm:E45_Place_Name:</text>
+<text text-anchor="middle" x="1138.5" y="-1554.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- A13&#45;&gt;A14 -->
+<g id="edge6" class="edge">
+            <title>A13-&gt;A14</title>
+<path fill="none" stroke="blue" d="M661.189,-1562.2C766.597,-1562.2 969.469,-1562.2 1073.12,-1562.2"/>
+<polygon fill="blue" stroke="blue" points="1073.13,-1565.7 1083.13,-1562.2 1073.13,-1558.7 1073.13,-1565.7"/>
+<text text-anchor="middle" x="850.5" y="-1565.2" font-family="Times,serif" font-size="10.00">crm:P87_is_identified_by</text>
+</g>
+<!-- &quot;50.004933 8.249554&quot; -->
+<g id="node34" class="node">
+            <title>"50.004933 8.249554"</title>
+<text text-anchor="middle" x="1608.5" y="-1614.7" font-family="Times,serif" font-size="10.00">"50.004933 8.249554"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- A0&#45;&gt;&quot;50.004933 8.249554&quot; -->
+<g id="edge27" class="edge">
+            <title>A0-&gt;"50.004933 8.249554"</title>
+<path fill="none" stroke="blue" d="M1210.07,-1614.65C1272.03,-1615.05 1364.51,-1615.64 1444.67,-1616.16"/>
+<polygon fill="blue" stroke="blue" points="1444.87,-1619.66 1454.89,-1616.22 1444.91,-1612.66 1444.87,-1619.66"/>
+<text text-anchor="middle" x="1408.5" y="-1618.2" font-family="Times,serif" font-size="10.00">crm:P3_has_note</text>
+</g>
+<!-- &quot;Jüdischer Friedhof&quot; -->
+<g id="node39" class="node">
+            <title>"Jüdischer Friedhof"</title>
+<text text-anchor="middle" x="1608.5" y="-1556.7" font-family="Times,serif" font-size="10.00">"Jüdischer Friedhof"</text>
+</g>
+<!-- A14&#45;&gt;&quot;Jüdischer Friedhof&quot; -->
+<g id="edge32" class="edge">
+            <title>A14-&gt;"Jüdischer Friedhof"</title>
+<path fill="none" stroke="blue" d="M1193.64,-1561.85C1282.14,-1561.29 1457.08,-1560.16 1548.59,-1559.58"/>
+<polygon fill="blue" stroke="blue" points="1548.81,-1563.08 1558.78,-1559.51 1548.76,-1556.08 1548.81,-1563.08"/>
+<text text-anchor="middle" x="1408.5" y="-1563.2" font-family="Times,serif" font-size="10.00">crm:P3_has_note</text>
+</g>
+<!-- A12 -->
+<g id="node11" class="node">
+            <title>A12</title>
+<polygon fill="none" stroke="black" points="645,-1137.2 541,-1137.2 541,-1107.2 645,-1107.2 645,-1137.2"/>
+<text text-anchor="middle" x="593" y="-1125.2" font-family="Times,serif" font-size="10.00">crm:E54_Dimension:</text>
+<text text-anchor="middle" x="593" y="-1114.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- A15 -->
+<g id="node12" class="node">
+            <title>A15</title>
+<polygon fill="none" stroke="black" points="1178.5,-1137.2 1098.5,-1137.2 1098.5,-1107.2 1178.5,-1107.2 1178.5,-1137.2"/>
+<text text-anchor="middle" x="1138.5" y="-1125.2" font-family="Times,serif" font-size="10.00">crm:E55_Type:</text>
+<text text-anchor="middle" x="1138.5" y="-1114.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- A12&#45;&gt;A15 -->
+<g id="edge7" class="edge">
+            <title>A12-&gt;A15</title>
+<path fill="none" stroke="blue" d="M645.131,-1122.2C749.366,-1122.2 985.234,-1122.2 1088.04,-1122.2"/>
+<polygon fill="blue" stroke="blue" points="1088.15,-1125.7 1098.15,-1122.2 1088.15,-1118.7 1088.15,-1125.7"/>
+<text text-anchor="middle" x="850.5" y="-1125.2" font-family="Times,serif" font-size="10.00">crm:P2_has_type</text>
+</g>
+<!-- &quot;93&quot; -->
+<g id="node13" class="node">
+            <title>"93"</title>
+<text text-anchor="middle" x="1138.5" y="-1174.7" font-family="Times,serif" font-size="10.00">"93"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- A12&#45;&gt;&quot;93&quot; -->
+<g id="edge8" class="edge">
+            <title>A12-&gt;"93"</title>
+<path fill="none" stroke="blue" d="M645.131,-1127.37C728.452,-1135.81 895.884,-1152.75 1012.23,-1164.52"/>
+<polygon fill="blue" stroke="blue" points="1011.97,-1168.01 1022.27,-1165.54 1012.67,-1161.05 1011.97,-1168.01"/>
+<text text-anchor="middle" x="850.5" y="-1156.2" font-family="Times,serif" font-size="10.00">crm:P9_has_value</text>
+</g>
+<!-- &quot;height&quot; -->
+<g id="node14" class="node">
+            <title>"height"</title>
+<text text-anchor="middle" x="1608.5" y="-1119.7" font-family="Times,serif" font-size="10.00">"height"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- A15&#45;&gt;&quot;height&quot; -->
+<g id="edge9" class="edge">
+            <title>A15-&gt;"height"</title>
+<path fill="none" stroke="blue" d="M1178.6,-1122.2C1242.9,-1122.2 1373.85,-1122.2 1474.24,-1122.2"/>
+<polygon fill="blue" stroke="blue" points="1474.47,-1125.7 1484.47,-1122.2 1474.47,-1118.7 1474.47,-1125.7"/>
+<text text-anchor="middle" x="1408.5" y="-1125.2" font-family="Times,serif" font-size="10.00">rdf:label</text>
+</g>
+<!-- http://steinheim&#45;institut.de/daten/picsmz2/xl/2208_mz1_LDA&#45;2008&#45;008.png -->
+<g id="node15" class="node">
+            <title>http://steinheim-institut.de/daten/picsmz2/xl/2208_mz1_LDA-2008-008.png</title>
+<g id="a_node15">
+                <a xlink:href="http://steinheim-institut.de/daten/picsmz2/xl/2208_mz1_LDA-2008-008.png" xlink:title="foaf:Image:\nhttp://steinheim-institut.de/daten/picsmz2/xl/2208_mz1_LDA-2008-008.png">
+<polygon fill="none" stroke="black" points="759.5,-804.2 426.5,-804.2 426.5,-774.2 759.5,-774.2 759.5,-804.2"/>
+<text text-anchor="middle" x="593" y="-792.2" font-family="Times,serif" font-size="10.00" fill="blue">foaf:Image:</text>
+<text text-anchor="middle" x="593" y="-781.2" font-family="Times,serif" font-size="10.00" fill="blue">http://steinheim-institut.de/daten/picsmz2/xl/2208_mz1_LDA-2008-008.png</text>
+</a>
+</g>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181 -->
+<g id="node16" class="node">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181</title>
+<g id="a_node16">
+                <a xlink:href="http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/fea\ntures/181" xlink:title="skos:Concept, geo:SpatialThing:\nhttp://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181">
+<polygon fill="none" stroke="black" points="786,-752.2 400,-752.2 400,-722.2 786,-722.2 786,-752.2"/>
+<text text-anchor="middle" x="593" y="-740.2" font-family="Times,serif" font-size="10.00" fill="blue">skos:Concept, geo:SpatialThing:</text>
+<text text-anchor="middle" x="593" y="-729.2" font-family="Times,serif" font-size="10.00" fill="blue">http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181</text>
+</a>
+</g>
+</g>
+<!-- A7 -->
+<g id="node17" class="node">
+            <title>A7</title>
+<polygon fill="none" stroke="black" points="1213,-483.2 1064,-483.2 1064,-453.2 1213,-453.2 1213,-483.2"/>
+<text text-anchor="middle" x="1138.5" y="-471.2" font-family="Times,serif" font-size="10.00">unit:squareMetre, skos:Concept:</text>
+<text text-anchor="middle" x="1138.5" y="-460.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181&#45;&gt;A7 -->
+<g id="edge10" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181-&gt;A7</title>
+<path fill="none" stroke="blue" d="M774.243,-721.942C778.423,-718.733 782.359,-715.163 786,-711.2 802.559,-693.177 779.846,-508.657 797,-491.2 831.488,-456.103 964.564,-456.867 1053.78,-461.732"/>
+<polygon fill="blue" stroke="blue" points="1053.7,-465.234 1063.89,-462.311 1054.1,-458.245 1053.7,-465.234"/>
+<text text-anchor="middle" x="850.5" y="-494.2" font-family="Times,serif" font-size="10.00">skos:relatedMatch</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_2 -->
+<g id="node18" class="node">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_2</title>
+<g id="a_node18">
+                <a xlink:href="http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/vie\nwpoints/Standpunkt_2" xlink:title="skos:Concept:\nhttp://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_2">
+<polygon fill="none" stroke="black" points="1359.5,-587.2 917.5,-587.2 917.5,-557.2 1359.5,-557.2 1359.5,-587.2"/>
+<text text-anchor="middle" x="1138.5" y="-575.2" font-family="Times,serif" font-size="10.00" fill="blue">skos:Concept:</text>
+<text text-anchor="middle" x="1138.5" y="-564.2" font-family="Times,serif" font-size="10.00" fill="blue">http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_2</text>
+</a>
+</g>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181&#45;&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_2 -->
+<g id="edge11" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181-&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_2</title>
+<path fill="none" stroke="blue" d="M772.931,-722.033C777.555,-718.815 781.93,-715.217 786,-711.2 809.663,-687.841 775.59,-662.64 797,-637.2 825.221,-603.666 864.942,-583.951 907.336,-572.907"/>
+<polygon fill="blue" stroke="blue" points="908.4,-576.25 917.287,-570.481 906.743,-569.449 908.4,-576.25"/>
+<text text-anchor="middle" x="850.5" y="-640.2" font-family="Times,serif" font-size="10.00">skos:relatedMatch</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_15 -->
+<g id="node19" class="node">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_15</title>
+<g id="a_node19">
+                <a xlink:href="http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/vie\nwpoints/Standpunkt_15" xlink:title="skos:Concept:\nhttp://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_15">
+<polygon fill="none" stroke="black" points="1362,-639.2 915,-639.2 915,-609.2 1362,-609.2 1362,-639.2"/>
+<text text-anchor="middle" x="1138.5" y="-627.2" font-family="Times,serif" font-size="10.00" fill="blue">skos:Concept:</text>
+<text text-anchor="middle" x="1138.5" y="-616.2" font-family="Times,serif" font-size="10.00" fill="blue">http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_15</text>
+</a>
+</g>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181&#45;&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_15 -->
+<g id="edge12" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181-&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_15</title>
+<path fill="none" stroke="blue" d="M767.811,-722.085C774.16,-718.919 780.254,-715.309 786,-711.2 794.892,-704.84 788.732,-696.352 797,-689.2 838.773,-653.063 861.07,-662.133 915,-650.2 931.268,-646.6 948.323,-643.477 965.445,-640.772"/>
+<polygon fill="blue" stroke="blue" points="966.174,-644.201 975.529,-639.227 965.114,-637.282 966.174,-644.201"/>
+<text text-anchor="middle" x="850.5" y="-692.2" font-family="Times,serif" font-size="10.00">skos:relatedMatch</text>
+</g>
+<!-- &quot;Pointcloud Data&quot; -->
+<g id="node20" class="node">
+            <title>"Pointcloud Data"</title>
+<text text-anchor="middle" x="1138.5" y="-908.7" font-family="Times,serif" font-size="10.00">"Pointcloud Data"</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181&#45;&gt;&quot;Pointcloud Data&quot; -->
+<g id="edge13" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181-&gt;"Pointcloud Data"</title>
+<path fill="none" stroke="blue" d="M772.941,-752.357C777.562,-755.577 781.934,-759.179 786,-763.2 809.953,-786.891 775.822,-811.998 797,-838.2 865.196,-922.574 1005.09,-924.531 1082.66,-918.156"/>
+<polygon fill="blue" stroke="blue" points="1083.07,-921.633 1092.71,-917.254 1082.44,-914.661 1083.07,-921.633"/>
+<text text-anchor="middle" x="850.5" y="-905.2" font-family="Times,serif" font-size="10.00">skos:prefLabel</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_3 -->
+<g id="node21" class="node">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_3</title>
+<g id="a_node21">
+                <a xlink:href="http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/vie\nwpoints/Standpunkt_3" xlink:title="skos:Concept:\nhttp://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_3">
+<polygon fill="none" stroke="black" points="1359.5,-535.2 917.5,-535.2 917.5,-505.2 1359.5,-505.2 1359.5,-535.2"/>
+<text text-anchor="middle" x="1138.5" y="-523.2" font-family="Times,serif" font-size="10.00" fill="blue">skos:Concept:</text>
+<text text-anchor="middle" x="1138.5" y="-512.2" font-family="Times,serif" font-size="10.00" fill="blue">http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_3</text>
+</a>
+</g>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181&#45;&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_3 -->
+<g id="edge14" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181-&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_3</title>
+<path fill="none" stroke="blue" d="M773.729,-722.129C778.09,-718.875 782.199,-715.244 786,-711.2 809.043,-686.685 773.756,-584.524 797,-560.2 862.526,-491.631 978.402,-492.925 1056.56,-503.677"/>
+<polygon fill="blue" stroke="blue" points="1056.45,-507.198 1066.85,-505.177 1057.46,-500.271 1056.45,-507.198"/>
+<text text-anchor="middle" x="850.5" y="-563.2" font-family="Times,serif" font-size="10.00">skos:relatedMatch</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_4 -->
+<g id="node22" class="node">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_4</title>
+<g id="a_node22">
+                <a xlink:href="http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/vie\nwpoints/Standpunkt_4" xlink:title="skos:Concept:\nhttp://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_4">
+<polygon fill="none" stroke="black" points="1359.5,-1085.2 917.5,-1085.2 917.5,-1055.2 1359.5,-1055.2 1359.5,-1085.2"/>
+<text text-anchor="middle" x="1138.5" y="-1073.2" font-family="Times,serif" font-size="10.00" fill="blue">skos:Concept:</text>
+<text text-anchor="middle" x="1138.5" y="-1062.2" font-family="Times,serif" font-size="10.00" fill="blue">http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_4</text>
+</a>
+</g>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181&#45;&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_4 -->
+<g id="edge15" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181-&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_4</title>
+<path fill="none" stroke="blue" d="M774.284,-752.42C778.452,-755.641 782.374,-759.222 786,-763.2 805.554,-784.651 777.806,-1002.43 797,-1024.2 858.754,-1094.25 972.319,-1095.83 1051.23,-1086.48"/>
+<polygon fill="blue" stroke="blue" points="1051.68,-1089.95 1061.16,-1085.23 1050.8,-1083.01 1051.68,-1089.95"/>
+<text text-anchor="middle" x="850.5" y="-1084.2" font-family="Times,serif" font-size="10.00">skos:relatedMatch</text>
+</g>
+<!-- &quot;Instance of the spatial data from the pointcloud\nfor the gravestone&quot; -->
+<g id="node23" class="node">
+            <title>"Instance of the spatial data from the pointcloud\nfor the gravestone"</title>
+<text text-anchor="middle" x="1138.5" y="-856.2" font-family="Times,serif" font-size="10.00">"Instance of the spatial data from the pointcloud</text>
+<text text-anchor="middle" x="1138.5" y="-845.2" font-family="Times,serif" font-size="10.00">for the gravestone"</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181&#45;&gt;&quot;Instance of the spatial data from the pointcloud\nfor the gravestone&quot; -->
+<g id="edge16" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181-&gt;"Instance of the spatial data from the pointcloud\nfor the gravestone"</title>
+<path fill="none" stroke="blue" d="M768.354,-752.418C774.515,-755.562 780.427,-759.139 786,-763.2 795.158,-769.872 788.467,-778.744 797,-786.2 838.49,-822.452 861.238,-812.145 915,-824.2 949.51,-831.938 987.526,-837.835 1022.22,-842.223"/>
+<polygon fill="blue" stroke="blue" points="1022.04,-845.727 1032.39,-843.479 1022.9,-838.78 1022.04,-845.727"/>
+<text text-anchor="middle" x="850.5" y="-825.2" font-family="Times,serif" font-size="10.00">rdf:comment</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_11 -->
+<g id="node24" class="node">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_11</title>
+<g id="a_node24">
+                <a xlink:href="http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/vie\nwpoints/Standpunkt_11" xlink:title="skos:Concept:\nhttp://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_11">
+<polygon fill="none" stroke="black" points="1362,-981.2 915,-981.2 915,-951.2 1362,-951.2 1362,-981.2"/>
+<text text-anchor="middle" x="1138.5" y="-969.2" font-family="Times,serif" font-size="10.00" fill="blue">skos:Concept:</text>
+<text text-anchor="middle" x="1138.5" y="-958.2" font-family="Times,serif" font-size="10.00" fill="blue">http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_11</text>
+</a>
+</g>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181&#45;&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_11 -->
+<g id="edge17" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181-&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_11</title>
+<path fill="none" stroke="blue" d="M773.739,-752.262C778.097,-755.518 782.202,-759.152 786,-763.2 809.627,-788.383 774.007,-892.437 797,-918.2 813.631,-936.833 855.764,-948.414 904.954,-955.562"/>
+<polygon fill="blue" stroke="blue" points="904.495,-959.032 914.88,-956.933 905.453,-952.098 904.495,-959.032"/>
+<text text-anchor="middle" x="850.5" y="-958.2" font-family="Times,serif" font-size="10.00">skos:relatedMatch</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_14 -->
+<g id="node25" class="node">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_14</title>
+<g id="a_node25">
+                <a xlink:href="http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/vie\nwpoints/Standpunkt_14" xlink:title="skos:Concept:\nhttp://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_14">
+<polygon fill="none" stroke="black" points="1362,-1033.2 915,-1033.2 915,-1003.2 1362,-1003.2 1362,-1033.2"/>
+<text text-anchor="middle" x="1138.5" y="-1021.2" font-family="Times,serif" font-size="10.00" fill="blue">skos:Concept:</text>
+<text text-anchor="middle" x="1138.5" y="-1010.2" font-family="Times,serif" font-size="10.00" fill="blue">http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_14</text>
+</a>
+</g>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181&#45;&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_14 -->
+<g id="edge18" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181-&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_14</title>
+<path fill="none" stroke="blue" d="M774.228,-752.472C778.412,-755.677 782.353,-759.242 786,-763.2 817.365,-797.24 766.349,-936.516 797,-971.2 813.532,-989.907 855.632,-1001.41 904.82,-1008.41"/>
+<polygon fill="blue" stroke="blue" points="904.368,-1011.88 914.747,-1009.75 905.306,-1004.95 904.368,-1011.88"/>
+<text text-anchor="middle" x="850.5" y="-1011.2" font-family="Times,serif" font-size="10.00">skos:relatedMatch</text>
+</g>
+<!-- &quot;2015&#45;01&#45;17 08:40:03.02&quot; -->
+<g id="node26" class="node">
+            <title>"2015-01-17 08:40:03.02"</title>
+<text text-anchor="middle" x="1138.5" y="-792.7" font-family="Times,serif" font-size="10.00">"2015-01-17 08:40:03.02"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181&#45;&gt;&quot;2015&#45;01&#45;17 08:40:03.02&quot; -->
+<g id="edge19" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181-&gt;"2015-01-17 08:40:03.02"</title>
+<path fill="none" stroke="blue" d="M734.672,-752.212C805.71,-759.793 892.463,-769.051 967.243,-777.031"/>
+<polygon fill="blue" stroke="blue" points="966.925,-780.517 977.24,-778.098 967.668,-773.556 966.925,-780.517"/>
+<text text-anchor="middle" x="850.5" y="-773.2" font-family="Times,serif" font-size="10.00">owltime:xsdDateTime</text>
+</g>
+<!-- &quot;schradt@uni&#45;mainz.de&quot; -->
+<g id="node27" class="node">
+            <title>"schradt@uni-mainz.de"</title>
+<text text-anchor="middle" x="1138.5" y="-734.7" font-family="Times,serif" font-size="10.00">"schradt@uni-mainz.de"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181&#45;&gt;&quot;schradt@uni&#45;mainz.de&quot; -->
+<g id="edge20" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181-&gt;"schradt@uni-mainz.de"</title>
+<path fill="none" stroke="blue" d="M786,-737.2C846.645,-737.2 913.105,-737.2 971.752,-737.2"/>
+<polygon fill="blue" stroke="blue" points="971.85,-740.7 981.85,-737.2 971.85,-733.7 971.85,-740.7"/>
+<text text-anchor="middle" x="850.5" y="-740.2" font-family="Times,serif" font-size="10.00">dc:creator</text>
+</g>
+<!-- &quot;POINT(3446262.86617823 5541192.68060282\n112.122822295185)&quot; -->
+<g id="node28" class="node">
+            <title>"POINT(3446262.86617823 5541192.68060282\n112.122822295185)"</title>
+<text text-anchor="middle" x="1138.5" y="-682.2" font-family="Times,serif" font-size="10.00">"POINT(3446262.86617823 5541192.68060282</text>
+<text text-anchor="middle" x="1138.5" y="-671.2" font-family="Times,serif" font-size="10.00">112.122822295185)"</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181&#45;&gt;&quot;POINT(3446262.86617823 5541192.68060282\n112.122822295185)&quot; -->
+<g id="edge21" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181-&gt;"POINT(3446262.86617823 5541192.68060282\n112.122822295185)"</title>
+<path fill="none" stroke="blue" d="M734.672,-722.188C823.077,-712.754 935.819,-700.723 1019.53,-691.789"/>
+<polygon fill="blue" stroke="blue" points="1020.02,-695.256 1029.6,-690.715 1019.28,-688.296 1020.02,-695.256"/>
+<text text-anchor="middle" x="850.5" y="-718.2" font-family="Times,serif" font-size="10.00">rdf:value</text>
+</g>
+<!-- &quot;0.0&quot; -->
+<g id="node40" class="node">
+            <title>"0.0"</title>
+<text text-anchor="middle" x="1608.5" y="-480.7" font-family="Times,serif" font-size="10.00">"0.0"^^http://www.w3.org/2001/XMLSchema#double</text>
+</g>
+<!-- A7&#45;&gt;&quot;0.0&quot; -->
+<g id="edge33" class="edge">
+            <title>A7-&gt;"0.0"</title>
+<path fill="none" stroke="blue" d="M1213.14,-470.56C1284.2,-472.838 1393.29,-476.334 1478.73,-479.073"/>
+<polygon fill="blue" stroke="blue" points="1478.66,-482.572 1488.76,-479.394 1478.88,-475.576 1478.66,-482.572"/>
+<text text-anchor="middle" x="1408.5" y="-481.2" font-family="Times,serif" font-size="10.00">rdf:value</text>
+</g>
+<!-- &quot;m²&quot; -->
+<g id="node41" class="node">
+            <title>"m²"</title>
+<text text-anchor="middle" x="1608.5" y="-422.7" font-family="Times,serif" font-size="10.00">"m²"</text>
+</g>
+<!-- A7&#45;&gt;&quot;m²&quot; -->
+<g id="edge34" class="edge">
+            <title>A7-&gt;"m²"</title>
+<path fill="none" stroke="blue" d="M1213.14,-461.434C1314.92,-452.082 1494.69,-435.565 1571.29,-428.526"/>
+<polygon fill="blue" stroke="blue" points="1571.76,-431.998 1581.4,-427.598 1571.12,-425.028 1571.76,-431.998"/>
+<text text-anchor="middle" x="1408.5" y="-450.2" font-family="Times,serif" font-size="10.00">skos:prefLabel</text>
+</g>
+<!-- &quot;A viewpoint (of the laserscanner) within the\npointcloud&quot; -->
+<g id="node29" class="node">
+            <title>"A viewpoint (of the laserscanner) within the\npointcloud"</title>
+<text text-anchor="middle" x="1608.5" y="-886.2" font-family="Times,serif" font-size="10.00">"A viewpoint (of the laserscanner) within the</text>
+<text text-anchor="middle" x="1608.5" y="-875.2" font-family="Times,serif" font-size="10.00">pointcloud"</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_2&#45;&gt;&quot;A viewpoint (of the laserscanner) within the\npointcloud&quot; -->
+<g id="edge68" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_2-&gt;"A viewpoint (of the laserscanner) within the\npointcloud"</title>
+<path fill="none" stroke="blue" d="M1350.07,-587.348C1354.28,-590.627 1358.27,-594.236 1362,-598.2 1391.9,-629.962 1347.23,-759.004 1373,-794.2 1373.09,-794.319 1480.87,-835.197 1550.26,-861.504"/>
+<polygon fill="blue" stroke="blue" points="1549.19,-864.841 1559.79,-865.114 1551.68,-858.296 1549.19,-864.841"/>
+<text text-anchor="middle" x="1408.5" y="-824.2" font-family="Times,serif" font-size="10.00">rdf:comment</text>
+</g>
+<!-- &quot;Viewpoint&quot; -->
+<g id="node30" class="node">
+            <title>"Viewpoint"</title>
+<text text-anchor="middle" x="1608.5" y="-641.7" font-family="Times,serif" font-size="10.00">"Viewpoint"</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_2&#45;&gt;&quot;Viewpoint&quot; -->
+<g id="edge69" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_2-&gt;"Viewpoint"</title>
+<path fill="none" stroke="blue" d="M1298.79,-587.222C1345.71,-592.533 1397.05,-599.213 1444,-607.2 1485.21,-614.21 1531.65,-625.003 1564.48,-633.125"/>
+<polygon fill="blue" stroke="blue" points="1563.66,-636.528 1574.21,-635.553 1565.35,-629.736 1563.66,-636.528"/>
+<text text-anchor="middle" x="1408.5" y="-610.2" font-family="Times,serif" font-size="10.00">skos:prefLabel</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_15&#45;&gt;&quot;A viewpoint (of the laserscanner) within the\npointcloud&quot; -->
+<g id="edge22" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_15-&gt;"A viewpoint (of the laserscanner) within the\npointcloud"</title>
+<path fill="none" stroke="blue" d="M1350.06,-639.361C1354.27,-642.637 1358.26,-646.241 1362,-650.2 1390.58,-680.47 1345.62,-805.847 1373,-837.2 1389.92,-856.575 1445.47,-867.973 1498.26,-874.576"/>
+<polygon fill="blue" stroke="blue" points="1498.08,-878.079 1508.42,-875.794 1498.91,-871.128 1498.08,-878.079"/>
+<text text-anchor="middle" x="1408.5" y="-868.2" font-family="Times,serif" font-size="10.00">rdf:comment</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_15&#45;&gt;&quot;Viewpoint&quot; -->
+<g id="edge23" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_15-&gt;"Viewpoint"</title>
+<path fill="none" stroke="blue" d="M1362.02,-622.039C1389.64,-622.623 1417.48,-623.621 1444,-625.2 1484.93,-627.637 1531.33,-633.311 1564.22,-637.827"/>
+<polygon fill="blue" stroke="blue" points="1564.02,-641.332 1574.4,-639.247 1564.98,-634.399 1564.02,-641.332"/>
+<text text-anchor="middle" x="1408.5" y="-628.2" font-family="Times,serif" font-size="10.00">skos:prefLabel</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_3&#45;&gt;&quot;A viewpoint (of the laserscanner) within the\npointcloud&quot; -->
+<g id="edge30" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_3-&gt;"A viewpoint (of the laserscanner) within the\npointcloud"</title>
+<path fill="none" stroke="blue" d="M1350.07,-535.346C1354.28,-538.626 1358.27,-542.235 1362,-546.2 1377.03,-562.164 1360.91,-724.914 1373,-743.2 1392.41,-772.545 1413.37,-760.889 1444,-778.2 1489.83,-804.103 1540.54,-837.444 1573.15,-859.528"/>
+<polygon fill="blue" stroke="blue" points="1571.21,-862.438 1581.45,-865.166 1575.14,-856.649 1571.21,-862.438"/>
+<text text-anchor="middle" x="1408.5" y="-781.2" font-family="Times,serif" font-size="10.00">rdf:comment</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_3&#45;&gt;&quot;Viewpoint&quot; -->
+<g id="edge31" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_3-&gt;"Viewpoint"</title>
+<path fill="none" stroke="blue" d="M1308.62,-535.215C1326.76,-538.234 1344.85,-541.855 1362,-546.2 1435.82,-564.897 1517.09,-600.531 1565.13,-623.289"/>
+<polygon fill="blue" stroke="blue" points="1563.76,-626.509 1574.29,-627.66 1566.77,-620.193 1563.76,-626.509"/>
+<text text-anchor="middle" x="1408.5" y="-576.2" font-family="Times,serif" font-size="10.00">skos:prefLabel</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_4&#45;&gt;&quot;A viewpoint (of the laserscanner) within the\npointcloud&quot; -->
+<g id="edge35" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_4-&gt;"A viewpoint (of the laserscanner) within the\npointcloud"</title>
+<path fill="none" stroke="blue" d="M1324.33,-1055.15C1337.23,-1052.1 1349.9,-1048.49 1362,-1044.2 1449.33,-1013.24 1536.42,-945.065 1579.58,-908.141"/>
+<polygon fill="blue" stroke="blue" points="1582.09,-910.598 1587.37,-901.41 1577.51,-905.303 1582.09,-910.598"/>
+<text text-anchor="middle" x="1408.5" y="-1042.2" font-family="Times,serif" font-size="10.00">rdf:comment</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_4&#45;&gt;&quot;Viewpoint&quot; -->
+<g id="edge36" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_4-&gt;"Viewpoint"</title>
+<path fill="none" stroke="blue" d="M1348.36,-1054.93C1353.13,-1051.71 1357.7,-1048.14 1362,-1044.2 1379.75,-1027.96 1358.49,-1010.39 1373,-991.2 1394.46,-962.819 1423.91,-983.569 1444,-954.2 1469.25,-917.296 1438.88,-895.906 1455,-854.2 1483.97,-779.258 1546.57,-706.83 1581.9,-669.774"/>
+<polygon fill="blue" stroke="blue" points="1584.57,-672.041 1589,-662.415 1579.54,-667.18 1584.57,-672.041"/>
+<text text-anchor="middle" x="1408.5" y="-994.2" font-family="Times,serif" font-size="10.00">skos:prefLabel</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_11&#45;&gt;&quot;A viewpoint (of the laserscanner) within the\npointcloud&quot; -->
+<g id="edge42" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_11-&gt;"A viewpoint (of the laserscanner) within the\npointcloud"</title>
+<path fill="none" stroke="blue" d="M1346.9,-951.003C1352.17,-947.776 1357.22,-944.186 1362,-940.2 1374.85,-929.482 1360.01,-914.743 1373,-904.2 1392.38,-888.473 1446.62,-882.972 1498.06,-881.519"/>
+<polygon fill="blue" stroke="blue" points="1498.39,-885.012 1508.3,-881.28 1498.22,-878.014 1498.39,-885.012"/>
+<text text-anchor="middle" x="1408.5" y="-907.2" font-family="Times,serif" font-size="10.00">rdf:comment</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_11&#45;&gt;&quot;Viewpoint&quot; -->
+<g id="edge43" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_11-&gt;"Viewpoint"</title>
+<path fill="none" stroke="blue" d="M1350.14,-951.114C1354.32,-947.816 1358.29,-944.187 1362,-940.2 1381.01,-919.758 1354.75,-710.325 1373,-689.2 1419.75,-635.087 1509.97,-633.468 1563.85,-638.168"/>
+<polygon fill="blue" stroke="blue" points="1563.82,-641.682 1574.12,-639.179 1564.51,-634.716 1563.82,-641.682"/>
+<text text-anchor="middle" x="1408.5" y="-692.2" font-family="Times,serif" font-size="10.00">skos:prefLabel</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_14&#45;&gt;&quot;A viewpoint (of the laserscanner) within the\npointcloud&quot; -->
+<g id="edge24" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_14-&gt;"A viewpoint (of the laserscanner) within the\npointcloud"</title>
+<path fill="none" stroke="blue" d="M1347.81,-1003.18C1352.78,-999.893 1357.53,-996.244 1362,-992.2 1378.87,-976.937 1357.15,-958.528 1373,-942.2 1382.9,-931.998 1447.98,-916.073 1507.07,-903.339"/>
+<polygon fill="blue" stroke="blue" points="1507.83,-906.756 1516.88,-901.243 1506.36,-899.911 1507.83,-906.756"/>
+<text text-anchor="middle" x="1408.5" y="-945.2" font-family="Times,serif" font-size="10.00">rdf:comment</text>
+</g>
+<!-- http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_14&#45;&gt;&quot;Viewpoint&quot; -->
+<g id="edge25" class="edge">
+            <title>http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/viewpoints/Standpunkt_14-&gt;"Viewpoint"</title>
+<path fill="none" stroke="blue" d="M1350.15,-1003.13C1354.33,-999.824 1358.3,-996.191 1362,-992.2 1382.04,-970.597 1355.49,-750.907 1373,-727.2 1373.75,-726.191 1497.01,-682.898 1564.5,-659.251"/>
+<polygon fill="blue" stroke="blue" points="1565.75,-662.521 1574.04,-655.912 1563.44,-655.915 1565.75,-662.521"/>
+<text text-anchor="middle" x="1408.5" y="-730.2" font-family="Times,serif" font-size="10.00">skos:prefLabel</text>
+</g>
+<!-- http://steinheim&#45;institut.de/daten/picsmz2/xl/2208_mz1_Lindemann&#45;1958&#45;L159.png -->
+<g id="node31" class="node">
+            <title>http://steinheim-institut.de/daten/picsmz2/xl/2208_mz1_Lindemann-1958-L159.png</title>
+<g id="a_node31">
+                <a xlink:href="http://steinheim-institut.de/daten/picsmz2/xl/2208_mz1_Lindemann-1958-L159.png" xlink:title="foaf:Image:\nhttp://steinheim-institut.de/daten/picsmz2/xl/2208_mz1_Lindemann-1958-L159.png">
+<polygon fill="none" stroke="black" points="775.5,-700.2 410.5,-700.2 410.5,-670.2 775.5,-670.2 775.5,-700.2"/>
+<text text-anchor="middle" x="593" y="-688.2" font-family="Times,serif" font-size="10.00" fill="blue">foaf:Image:</text>
+<text text-anchor="middle" x="593" y="-677.2" font-family="Times,serif" font-size="10.00" fill="blue">http://steinheim-institut.de/daten/picsmz2/xl/2208_mz1_Lindemann-1958-L159.png</text>
+</a>
+</g>
+</g>
+<!-- http://vocab.getty.edu/tgn/7004449 -->
+<g id="node32" class="node">
+            <title>http://vocab.getty.edu/tgn/7004449</title>
+<g id="a_node32">
+                <a xlink:href="http://vocab.getty.edu/tgn/7004449" xlink:title="http://vocab.getty.edu/tgn/7004449">
+<polygon fill="none" stroke="black" points="675,-647.7 511,-647.7 511,-628.7 675,-628.7 675,-647.7"/>
+<text text-anchor="middle" x="593" y="-635.7" font-family="Times,serif" font-size="10.00" fill="blue">http://vocab.getty.edu/tgn/7004449</text>
+</a>
+</g>
+</g>
+<!-- &quot;Mainz&quot; -->
+<g id="node33" class="node">
+            <title>"Mainz"</title>
+<text text-anchor="middle" x="1138.5" y="-410.7" font-family="Times,serif" font-size="10.00">"Mainz"</text>
+</g>
+<!-- http://vocab.getty.edu/tgn/7004449&#45;&gt;&quot;Mainz&quot; -->
+<g id="edge26" class="edge">
+            <title>http://vocab.getty.edu/tgn/7004449-&gt;"Mainz"</title>
+<path fill="none" stroke="blue" d="M637.867,-647.722C681.944,-654.443 748.558,-656.325 786,-617.2 812.021,-590.01 770.891,-475.305 797,-448.2 876.996,-365.152 1031.34,-387.891 1101.37,-403.763"/>
+<polygon fill="blue" stroke="blue" points="1100.93,-407.256 1111.47,-406.138 1102.54,-400.441 1100.93,-407.256"/>
+<text text-anchor="middle" x="850.5" y="-451.2" font-family="Times,serif" font-size="10.00">rdf:label</text>
+</g>
+<!-- A9 -->
+<g id="node36" class="node">
+            <title>A9</title>
+<polygon fill="none" stroke="black" points="1205.5,-263.2 1071.5,-263.2 1071.5,-233.2 1205.5,-233.2 1205.5,-263.2"/>
+<text text-anchor="middle" x="1138.5" y="-251.2" font-family="Times,serif" font-size="10.00">crm:E33_Linguistic_Object:</text>
+<text text-anchor="middle" x="1138.5" y="-240.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- &quot;#.:Das Steinmal#.; \n wurde errichtet zu Häupten der Frau\nBona, der Jungfrau, Tochter des\nGedalja, welche verschied am Tag 6 im\nSivan im (Jahr) 879 der Zählung. \n Ihre Ruhestatt sei im Eden&#45;Garten&quot; -->
+<g id="node37" class="node">
+            <title>"#.:Das Steinmal#.; \n wurde errichtet zu Häupten der Frau\nBona, der Jungfrau, Tochter des\nGedalja, welche verschied am Tag 6 im\nSivan im (Jahr) 879 der Zählung. \n Ihre Ruhestatt sei im Eden-Garten"</title>
+<text text-anchor="middle" x="1608.5" y="-273.2" font-family="Times,serif" font-size="10.00">"#.:Das Steinmal#.; </text>
+<text text-anchor="middle" x="1608.5" y="-262.2" font-family="Times,serif" font-size="10.00"> wurde errichtet zu Häupten der Frau</text>
+<text text-anchor="middle" x="1608.5" y="-251.2" font-family="Times,serif" font-size="10.00">Bona, der Jungfrau, Tochter des</text>
+<text text-anchor="middle" x="1608.5" y="-240.2" font-family="Times,serif" font-size="10.00">Gedalja, welche verschied am Tag 6 im</text>
+<text text-anchor="middle" x="1608.5" y="-229.2" font-family="Times,serif" font-size="10.00">Sivan im (Jahr) 879 der Zählung. </text>
+<text text-anchor="middle" x="1608.5" y="-218.2" font-family="Times,serif" font-size="10.00"> Ihre Ruhestatt sei im Eden-Garten"</text>
+</g>
+<!-- A9&#45;&gt;&quot;#.:Das Steinmal#.; \n wurde errichtet zu Häupten der Frau\nBona, der Jungfrau, Tochter des\nGedalja, welche verschied am Tag 6 im\nSivan im (Jahr) 879 der Zählung. \n Ihre Ruhestatt sei im Eden&#45;Garten&quot; -->
+<g id="edge29" class="edge">
+            <title>A9-&gt;"#.:Das Steinmal#.; \n wurde errichtet zu Häupten der Frau\nBona, der Jungfrau, Tochter des\nGedalja, welche verschied am Tag 6 im\nSivan im (Jahr) 879 der Zählung. \n Ihre Ruhestatt sei im Eden-Garten"</title>
+<path fill="none" stroke="blue" d="M1205.56,-248.2C1284.97,-248.2 1418.93,-248.2 1510.19,-248.2"/>
+<polygon fill="blue" stroke="blue" points="1510.26,-251.7 1520.26,-248.2 1510.26,-244.7 1510.26,-251.7"/>
+<text text-anchor="middle" x="1408.5" y="-251.2" font-family="Times,serif" font-size="10.00">crm:P3_has_note</text>
+</g>
+<!-- http://baugeschichte.a.tu&#45;berlin.de/bg/RiR/data/mz2_gravestonedescription.xml -->
+<g id="node38" class="node">
+            <title>http://baugeschichte.a.tu-berlin.de/bg/RiR/data/mz2_gravestonedescription.xml</title>
+<g id="a_node38">
+                <a xlink:href="http://baugeschichte.a.tu-berlin.de/bg/RiR/data/mz2_gravestonedescription.xml" xlink:title="http://baugeschichte.a.tu-berlin.de/bg/RiR/data/mz2_gravestonedescription.xml">
+<polygon fill="none" stroke="black" points="765,-606.7 421,-606.7 421,-587.7 765,-587.7 765,-606.7"/>
+<text text-anchor="middle" x="593" y="-594.7" font-family="Times,serif" font-size="10.00" fill="blue">http://baugeschichte.a.tu-berlin.de/bg/RiR/data/mz2_gravestonedescription.xml</text>
+</a>
+</g>
+</g>
+<!-- A2 -->
+<g id="node42" class="node">
+            <title>A2</title>
+<polygon fill="none" stroke="black" points="645,-478.2 541,-478.2 541,-448.2 645,-448.2 645,-478.2"/>
+<text text-anchor="middle" x="593" y="-466.2" font-family="Times,serif" font-size="10.00">crm:E54_Dimension:</text>
+<text text-anchor="middle" x="593" y="-455.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- A3 -->
+<g id="node43" class="node">
+            <title>A3</title>
+<polygon fill="none" stroke="black" points="1178.5,-373.2 1098.5,-373.2 1098.5,-343.2 1178.5,-343.2 1178.5,-373.2"/>
+<text text-anchor="middle" x="1138.5" y="-361.2" font-family="Times,serif" font-size="10.00">crm:E55_Type:</text>
+<text text-anchor="middle" x="1138.5" y="-350.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- A2&#45;&gt;A3 -->
+<g id="edge37" class="edge">
+            <title>A2-&gt;A3</title>
+<path fill="none" stroke="blue" d="M645.053,-471.343C688.342,-475.133 749.113,-472.605 786,-437.2 806.19,-417.821 776.007,-393.707 797,-375.2 838.928,-338.237 1004.33,-346.562 1088.19,-353.469"/>
+<polygon fill="blue" stroke="blue" points="1087.98,-356.964 1098.24,-354.323 1088.58,-349.989 1087.98,-356.964"/>
+<text text-anchor="middle" x="850.5" y="-378.2" font-family="Times,serif" font-size="10.00">crm:P2_has_type</text>
+</g>
+<!-- &quot;53&quot; -->
+<g id="node44" class="node">
+            <title>"53"</title>
+<text text-anchor="middle" x="1138.5" y="-300.7" font-family="Times,serif" font-size="10.00">"53"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- A2&#45;&gt;&quot;53&quot; -->
+<g id="edge38" class="edge">
+            <title>A2-&gt;"53"</title>
+<path fill="none" stroke="blue" d="M645.24,-471.923C688.953,-476.167 750.242,-473.981 786,-437.2 802.046,-420.695 780.597,-350.349 797,-334.2 862.277,-269.934 972.588,-271.884 1049.92,-283.572"/>
+<polygon fill="blue" stroke="blue" points="1049.7,-287.081 1060.13,-285.2 1050.8,-280.168 1049.7,-287.081"/>
+<text text-anchor="middle" x="850.5" y="-337.2" font-family="Times,serif" font-size="10.00">crm:P9_has_value</text>
+</g>
+<!-- &quot;width&quot; -->
+<g id="node47" class="node">
+            <title>"width"</title>
+<text text-anchor="middle" x="1608.5" y="-355.7" font-family="Times,serif" font-size="10.00">"width"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- A3&#45;&gt;&quot;width&quot; -->
+<g id="edge41" class="edge">
+            <title>A3-&gt;"width"</title>
+<path fill="none" stroke="blue" d="M1178.6,-358.2C1243.22,-358.2 1375.15,-358.2 1475.73,-358.2"/>
+<polygon fill="blue" stroke="blue" points="1475.97,-361.7 1485.97,-358.2 1475.97,-354.7 1475.97,-361.7"/>
+<text text-anchor="middle" x="1408.5" y="-361.2" font-family="Times,serif" font-size="10.00">rdf:label</text>
+</g>
+<!-- A8 -->
+<g id="node45" class="node">
+            <title>A8</title>
+<polygon fill="none" stroke="black" points="645,-426.2 541,-426.2 541,-396.2 645,-396.2 645,-426.2"/>
+<text text-anchor="middle" x="593" y="-414.2" font-family="Times,serif" font-size="10.00">crm:E34_Inscription:</text>
+<text text-anchor="middle" x="593" y="-403.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- A8&#45;&gt;A9 -->
+<g id="edge40" class="edge">
+            <title>A8-&gt;A9</title>
+<path fill="none" stroke="blue" d="M645.354,-420.033C689.142,-424.349 750.476,-422.206 786,-385.2 804.085,-366.361 778.213,-286.339 797,-268.2 833.353,-233.1 972.577,-235.912 1061.35,-241.686"/>
+<polygon fill="blue" stroke="blue" points="1061.16,-245.182 1071.38,-242.365 1061.64,-238.198 1061.16,-245.182"/>
+<text text-anchor="middle" x="850.5" y="-271.2" font-family="Times,serif" font-size="10.00">crm:P73_has_translation</text>
+</g>
+<!-- &quot;‎‏מצבת האבן‏‎ \n‎‏הוקמה לראש‏‎ ‎‏מרת בונא‏‎ \n‎‏הבחורה בת גדליה‏‎ ‎‏הנפטרה בי׳ ו׳\nבסיון‏‎ ‎‏בתתע״ט לפרט‏‎ \n‎‏מנוחתה בעדן גן‏‎&quot; -->
+<g id="node46" class="node">
+            <title>"‎‏מצבת האבן‏‎ \n‎‏הוקמה לראש‏‎ ‎‏מרת בונא‏‎ \n‎‏הבחורה בת גדליה‏‎ ‎‏הנפטרה בי׳ ו׳\nבסיון‏‎ ‎‏בתתע״ט לפרט‏‎ \n‎‏מנוחתה בעדן גן‏‎"</title>
+<text text-anchor="middle" x="1138.5" y="-198.7" font-family="Times,serif" font-size="10.00">"‎‏מצבת האבן‏‎ </text>
+<text text-anchor="middle" x="1138.5" y="-187.7" font-family="Times,serif" font-size="10.00">‎‏הוקמה לראש‏‎ ‎‏מרת בונא‏‎ </text>
+<text text-anchor="middle" x="1138.5" y="-176.7" font-family="Times,serif" font-size="10.00">‎‏הבחורה בת גדליה‏‎ ‎‏הנפטרה בי׳ ו׳</text>
+<text text-anchor="middle" x="1138.5" y="-165.7" font-family="Times,serif" font-size="10.00">בסיון‏‎ ‎‏בתתע״ט לפרט‏‎ </text>
+<text text-anchor="middle" x="1138.5" y="-154.7" font-family="Times,serif" font-size="10.00">‎‏מנוחתה בעדן גן‏‎"</text>
+</g>
+<!-- A8&#45;&gt;&quot;‎‏מצבת האבן‏‎ \n‎‏הוקמה לראש‏‎ ‎‏מרת בונא‏‎ \n‎‏הבחורה בת גדליה‏‎ ‎‏הנפטרה בי׳ ו׳\nבסיון‏‎ ‎‏בתתע״ט לפרט‏‎ \n‎‏מנוחתה בעדן גן‏‎&quot; -->
+<g id="edge39" class="edge">
+            <title>A8-&gt;"‎‏מצבת האבן‏‎ \n‎‏הוקמה לראש‏‎ ‎‏מרת בונא‏‎ \n‎‏הבחורה בת גדליה‏‎ ‎‏הנפטרה בי׳ ו׳\nבסיון‏‎ ‎‏בתתע״ט לפרט‏‎ \n‎‏מנוחתה בעדן גן‏‎"</title>
+<path fill="none" stroke="blue" d="M645.156,-420.21C689.123,-424.726 750.836,-422.779 786,-385.2 810.502,-359.015 772.456,-250.346 797,-224.2 861.249,-155.757 975.248,-154.476 1053.51,-163.637"/>
+<polygon fill="blue" stroke="blue" points="1053.47,-167.159 1063.83,-164.928 1054.34,-160.213 1053.47,-167.159"/>
+<text text-anchor="middle" x="850.5" y="-227.2" font-family="Times,serif" font-size="10.00">crm:P3_has_note</text>
+</g>
+<!-- A1 -->
+<g id="node48" class="node">
+            <title>A1</title>
+<polygon fill="none" stroke="black" points="655,-374.2 531,-374.2 531,-344.2 655,-344.2 655,-374.2"/>
+<text text-anchor="middle" x="593" y="-362.2" font-family="Times,serif" font-size="10.00">crm:E18_Physical_Thing:</text>
+<text text-anchor="middle" x="593" y="-351.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- &quot;Kubatur&quot; -->
+<g id="node49" class="node">
+            <title>"Kubatur"</title>
+<text text-anchor="middle" x="1138.5" y="-104.7" font-family="Times,serif" font-size="10.00">"Kubatur"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- A1&#45;&gt;&quot;Kubatur&quot; -->
+<g id="edge44" class="edge">
+            <title>A1-&gt;"Kubatur"</title>
+<path fill="none" stroke="blue" d="M655.427,-369.177C698.362,-372.337 753.604,-368.071 786,-333.2 813.276,-303.84 769.849,-182.675 797,-153.2 851.232,-94.3255 942.165,-84.533 1016.42,-88.5438"/>
+<polygon fill="blue" stroke="blue" points="1016.58,-92.0609 1026.78,-89.1977 1017.03,-85.0748 1016.58,-92.0609"/>
+<text text-anchor="middle" x="850.5" y="-156.2" font-family="Times,serif" font-size="10.00">rdf:label</text>
+</g>
+<!-- A5 -->
+<g id="node50" class="node">
+            <title>A5</title>
+<polygon fill="none" stroke="black" points="655.5,-1331.2 530.5,-1331.2 530.5,-1301.2 655.5,-1301.2 655.5,-1331.2"/>
+<text text-anchor="middle" x="593" y="-1319.2" font-family="Times,serif" font-size="10.00">skos:Concept, foaf:Person:</text>
+<text text-anchor="middle" x="593" y="-1308.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- A5&#45;&gt;A6 -->
+<g id="edge45" class="edge">
+            <title>A5-&gt;A6</title>
+<path fill="none" stroke="blue" d="M655.648,-1303.88C720.135,-1291.27 824.394,-1271.67 915,-1258.2 978.748,-1248.73 1053.2,-1240.62 1097.78,-1236.09"/>
+<polygon fill="blue" stroke="blue" points="1098.31,-1239.55 1107.91,-1235.06 1097.61,-1232.59 1098.31,-1239.55"/>
+<text text-anchor="middle" x="850.5" y="-1280.2" font-family="Times,serif" font-size="10.00">bio:agent</text>
+</g>
+<!-- &quot;female&quot; -->
+<g id="node51" class="node">
+            <title>"female"</title>
+<text text-anchor="middle" x="1138.5" y="-1458.7" font-family="Times,serif" font-size="10.00">"female"</text>
+</g>
+<!-- A5&#45;&gt;&quot;female&quot; -->
+<g id="edge46" class="edge">
+            <title>A5-&gt;"female"</title>
+<path fill="none" stroke="blue" d="M627.92,-1331.24C685.673,-1356.21 807.319,-1406.06 915,-1432.2 979.66,-1447.9 1057.09,-1455.56 1101.46,-1458.92"/>
+<polygon fill="blue" stroke="blue" points="1101.24,-1462.41 1111.47,-1459.65 1101.75,-1455.43 1101.24,-1462.41"/>
+<text text-anchor="middle" x="850.5" y="-1431.2" font-family="Times,serif" font-size="10.00">foaf:gender</text>
+</g>
+<!-- &quot;Bona bat Gedalja&quot; -->
+<g id="node52" class="node">
+            <title>"Bona bat Gedalja"</title>
+<text text-anchor="middle" x="1138.5" y="-1400.7" font-family="Times,serif" font-size="10.00">"Bona bat Gedalja"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- A5&#45;&gt;&quot;Bona bat Gedalja&quot; -->
+<g id="edge47" class="edge">
+            <title>A5-&gt;"Bona bat Gedalja"</title>
+<path fill="none" stroke="blue" d="M655.686,-1328.28C720.203,-1340.69 824.485,-1360.13 915,-1374.2 936.628,-1377.56 959.479,-1380.84 981.976,-1383.92"/>
+<polygon fill="blue" stroke="blue" points="981.555,-1387.4 991.935,-1385.27 982.497,-1380.46 981.555,-1387.4"/>
+<text text-anchor="middle" x="850.5" y="-1375.2" font-family="Times,serif" font-size="10.00">foaf:name</text>
+</g>
+<!-- &quot;Instance(s) of the person(s) the gravestone is for&quot; -->
+<g id="node53" class="node">
+            <title>"Instance(s) of the person(s) the gravestone is for"</title>
+<text text-anchor="middle" x="1138.5" y="-1342.7" font-family="Times,serif" font-size="10.00">"Instance(s) of the person(s) the gravestone is for"</text>
+</g>
+<!-- A5&#45;&gt;&quot;Instance(s) of the person(s) the gravestone is for&quot; -->
+<g id="edge48" class="edge">
+            <title>A5-&gt;"Instance(s) of the person(s) the gravestone is for"</title>
+<path fill="none" stroke="blue" d="M655.553,-1319.48C743.906,-1324.2 908.344,-1332.97 1020.32,-1338.95"/>
+<polygon fill="blue" stroke="blue" points="1020.14,-1342.44 1030.31,-1339.48 1020.51,-1335.45 1020.14,-1342.44"/>
+<text text-anchor="middle" x="850.5" y="-1336.2" font-family="Times,serif" font-size="10.00">rdf:comment</text>
+</g>
+<!-- &quot;Person&quot; -->
+<g id="node54" class="node">
+            <title>"Person"</title>
+<text text-anchor="middle" x="1138.5" y="-1284.7" font-family="Times,serif" font-size="10.00">"Person"</text>
+</g>
+<!-- A5&#45;&gt;&quot;Person&quot; -->
+<g id="edge49" class="edge">
+            <title>A5-&gt;"Person"</title>
+<path fill="none" stroke="blue" d="M655.553,-1312.92C769.438,-1306.84 1009.74,-1294.02 1101.16,-1289.14"/>
+<polygon fill="blue" stroke="blue" points="1101.5,-1292.63 1111.3,-1288.6 1101.12,-1285.64 1101.5,-1292.63"/>
+<text text-anchor="middle" x="850.5" y="-1308.2" font-family="Times,serif" font-size="10.00">skos:prefLabel</text>
+</g>
+<!-- A10 -->
+<g id="node55" class="node">
+            <title>A10</title>
+<polygon fill="none" stroke="black" points="655,-322.2 531,-322.2 531,-292.2 655,-292.2 655,-322.2"/>
+<text text-anchor="middle" x="593" y="-310.2" font-family="Times,serif" font-size="10.00">crm:E18_Physical_Thing:</text>
+<text text-anchor="middle" x="593" y="-299.2" font-family="Times,serif" font-size="10.00"> </text>
+</g>
+<!-- &quot;Schriftfeld&quot; -->
+<g id="node56" class="node">
+            <title>"Schriftfeld"</title>
+<text text-anchor="middle" x="1138.5" y="-46.7" font-family="Times,serif" font-size="10.00">"Schriftfeld"^^http://www.w3.org/2001/XMLSchema#string</text>
+</g>
+<!-- A10&#45;&gt;&quot;Schriftfeld&quot; -->
+<g id="edge50" class="edge">
+            <title>A10-&gt;"Schriftfeld"</title>
+<path fill="none" stroke="blue" d="M655.033,-317.199C698.062,-320.451 753.592,-316.289 786,-281.2 816.05,-248.664 766.337,-114.159 797,-82.2 860.749,-15.7559 972.17,-17.6881 1050.14,-29.5464"/>
+<polygon fill="blue" stroke="blue" points="1050,-33.0693 1060.43,-31.1984 1051.11,-26.1578 1050,-33.0693"/>
+<text text-anchor="middle" x="850.5" y="-85.2" font-family="Times,serif" font-size="10.00">rdf:label</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208 -->
+<g id="node57" class="node">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208</title>
+<g id="a_node57">
+                <a xlink:href="http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208" xlink:title="crm:E18_Physical_Thing, skos:Concept:\nhttp://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208">
+<polygon fill="none" stroke="black" points="272,-700.2 0,-700.2 0,-670.2 272,-670.2 272,-700.2"/>
+<text text-anchor="middle" x="136" y="-688.2" font-family="Times,serif" font-size="10.00" fill="blue">crm:E18_Physical_Thing, skos:Concept:</text>
+<text text-anchor="middle" x="136" y="-677.2" font-family="Times,serif" font-size="10.00" fill="blue">http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208</text>
+</a>
+</g>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;&quot;1119&#45;05&#45;18&quot; -->
+<g id="edge53" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;"1119-05-18"</title>
+<path fill="none" stroke="blue" d="M137.779,-700.352C142.845,-781.759 178.331,-1169.93 400,-1342.2 588.043,-1488.34 679.174,-1456.99 915,-1490.2 1111.73,-1517.91 1164.76,-1513.95 1362,-1490.2 1423.54,-1482.79 1491.92,-1465.29 1540.85,-1451.09"/>
+<polygon fill="blue" stroke="blue" points="1542.07,-1454.38 1550.68,-1448.2 1540.09,-1447.66 1542.07,-1454.38"/>
+<text text-anchor="middle" x="850.5" y="-1490.2" font-family="Times,serif" font-size="10.00">owltime:xsdDateTime</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;A4 -->
+<g id="edge58" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;A4</title>
+<path fill="none" stroke="blue" d="M137.056,-700.545C137.784,-813.568 147.752,-1516.9 283,-1668.2 346.857,-1739.64 465.112,-1752.02 535.356,-1752.5"/>
+<polygon fill="blue" stroke="blue" points="535.785,-1756 545.781,-1752.49 535.776,-1749 535.785,-1756"/>
+<text text-anchor="middle" x="336" y="-1732.2" font-family="Times,serif" font-size="10.00">crm:consists_of</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;A11 -->
+<g id="edge54" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;A11</title>
+<path fill="none" stroke="blue" d="M137.232,-700.424C139.186,-808.186 156.145,-1455.53 283,-1593.2 346.154,-1661.74 460.263,-1672.95 530.742,-1672.62"/>
+<polygon fill="blue" stroke="blue" points="530.858,-1676.12 540.813,-1672.5 530.77,-1669.12 530.858,-1676.12"/>
+<text text-anchor="middle" x="336" y="-1655.2" font-family="Times,serif" font-size="10.00">crm:P43_has_dimension</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;A13 -->
+<g id="edge65" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;A13</title>
+<path fill="none" stroke="blue" d="M137.23,-700.214C139.14,-803.755 155.724,-1411.29 283,-1530.2 344.225,-1587.4 444.941,-1586.96 514.668,-1577.77"/>
+<polygon fill="blue" stroke="blue" points="515.307,-1581.22 524.722,-1576.36 514.332,-1574.29 515.307,-1581.22"/>
+<text text-anchor="middle" x="336" y="-1580.2" font-family="Times,serif" font-size="10.00">crm:P1_is_identified_by</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;A12 -->
+<g id="edge55" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;A12</title>
+<path fill="none" stroke="blue" d="M152.662,-700.242C220.329,-765.233 487.801,-1022.12 568.699,-1099.82"/>
+<polygon fill="blue" stroke="blue" points="566.296,-1102.37 575.933,-1106.77 571.145,-1097.32 566.296,-1102.37"/>
+<text text-anchor="middle" x="336" y="-927.2" font-family="Times,serif" font-size="10.00">crm:P43_has_dimension</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;http://steinheim&#45;institut.de/daten/picsmz2/xl/2208_mz1_LDA&#45;2008&#45;008.png -->
+<g id="edge63" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;http://steinheim-institut.de/daten/picsmz2/xl/2208_mz1_LDA-2008-008.png</title>
+<path fill="none" stroke="blue" d="M184.915,-700.286C213.367,-709.165 250.183,-720.516 283,-730.2 334.82,-745.491 347.1,-752.214 400,-763.2 416.794,-766.688 434.516,-769.817 452.129,-772.593"/>
+<polygon fill="blue" stroke="blue" points="452.063,-776.124 462.479,-774.187 453.128,-769.206 452.063,-776.124"/>
+<text text-anchor="middle" x="336" y="-764.2" font-family="Times,serif" font-size="10.00">foaf:depiction</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181 -->
+<g id="edge51" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;http://ibr.spatialhumanities.de/gedenkfriedhof/rest/JuedischerGedenkfriedhof/features/181</title>
+<path fill="none" stroke="blue" d="M268.3,-700.206C325.372,-706.728 392.345,-714.382 450.519,-721.031"/>
+<polygon fill="blue" stroke="blue" points="450.19,-724.516 460.523,-722.174 450.985,-717.561 450.19,-724.516"/>
+<text text-anchor="middle" x="336" y="-717.2" font-family="Times,serif" font-size="10.00">skos:relatedMatch</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;http://steinheim&#45;institut.de/daten/picsmz2/xl/2208_mz1_Lindemann&#45;1958&#45;L159.png -->
+<g id="edge57" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;http://steinheim-institut.de/daten/picsmz2/xl/2208_mz1_Lindemann-1958-L159.png</title>
+<path fill="none" stroke="blue" d="M272.283,-685.2C312.504,-685.2 357.354,-685.2 400.439,-685.2"/>
+<polygon fill="blue" stroke="blue" points="400.472,-688.7 410.472,-685.2 400.472,-681.7 400.472,-688.7"/>
+<text text-anchor="middle" x="336" y="-688.2" font-family="Times,serif" font-size="10.00">foaf:depiction</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;http://vocab.getty.edu/tgn/7004449 -->
+<g id="edge52" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;http://vocab.getty.edu/tgn/7004449</title>
+<path fill="none" stroke="blue" d="M272.22,-670.337C275.851,-669.952 279.45,-669.573 283,-669.2 356.269,-661.51 439.356,-653.197 500.906,-647.118"/>
+<polygon fill="blue" stroke="blue" points="501.372,-650.589 510.98,-646.123 500.684,-643.623 501.372,-650.589"/>
+<text text-anchor="middle" x="336" y="-672.2" font-family="Times,serif" font-size="10.00">skos:relatedMatch</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;http://baugeschichte.a.tu&#45;berlin.de/bg/RiR/data/mz2_gravestonedescription.xml -->
+<g id="edge62" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;http://baugeschichte.a.tu-berlin.de/bg/RiR/data/mz2_gravestonedescription.xml</title>
+<path fill="none" stroke="blue" d="M186.462,-670.153C214.639,-661.787 250.668,-651.435 283,-643.2 334.621,-630.053 347.422,-625.751 400,-617.2 422.404,-613.556 446.392,-610.441 469.557,-607.829"/>
+<polygon fill="blue" stroke="blue" points="470.224,-611.277 479.78,-606.702 469.457,-604.319 470.224,-611.277"/>
+<text text-anchor="middle" x="336" y="-646.2" font-family="Times,serif" font-size="10.00">owl:seeAlso</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;A2 -->
+<g id="edge60" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;A2</title>
+<path fill="none" stroke="blue" d="M162.222,-670.156C191.044,-653.171 239.813,-625.06 283,-603.2 375.026,-556.619 485.753,-508.251 546.526,-482.34"/>
+<polygon fill="blue" stroke="blue" points="548.008,-485.513 555.84,-478.378 545.268,-479.072 548.008,-485.513"/>
+<text text-anchor="middle" x="336" y="-606.2" font-family="Times,serif" font-size="10.00">crm:P43_has_dimension</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;A8 -->
+<g id="edge66" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;A8</title>
+<path fill="none" stroke="blue" d="M149.975,-669.833C174.205,-641.715 228.8,-581.033 283,-539.2 326.206,-505.853 355.755,-520.484 389,-477.2 400.231,-462.577 386.12,-449.337 400,-437.2 435.323,-406.312 489.161,-401.366 530.847,-403.262"/>
+<polygon fill="blue" stroke="blue" points="530.703,-406.759 540.894,-403.86 531.119,-399.772 530.703,-406.759"/>
+<text text-anchor="middle" x="336" y="-542.2" font-family="Times,serif" font-size="10.00">crm:P56_bears_feature</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;A1 -->
+<g id="edge59" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;A1</title>
+<path fill="none" stroke="blue" d="M143.2,-669.997C160.019,-630.459 210.187,-523.187 283,-461.2 322.241,-427.794 353.572,-451.625 389,-414.2 398.477,-404.189 389.207,-393.776 400,-385.2 433.555,-358.538 481.267,-351.975 520.734,-352.109"/>
+<polygon fill="blue" stroke="blue" points="520.778,-355.61 530.838,-352.287 520.902,-348.611 520.778,-355.61"/>
+<text text-anchor="middle" x="336" y="-464.2" font-family="Times,serif" font-size="10.00">crm:P46_is_composed_of</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;A5 -->
+<g id="edge67" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;A5</title>
+<path fill="none" stroke="blue" d="M143.336,-700.329C169.148,-760.9 271.15,-990.248 400,-1148.2 449.298,-1208.63 521.613,-1265.41 561.96,-1294.97"/>
+<polygon fill="blue" stroke="blue" points="560.155,-1297.99 570.303,-1301.03 564.268,-1292.32 560.155,-1297.99"/>
+<text text-anchor="middle" x="336" y="-1129.2" font-family="Times,serif" font-size="10.00">skos:relatedMatch</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;A10 -->
+<g id="edge64" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;A10</title>
+<path fill="none" stroke="blue" d="M141.262,-669.914C154.816,-623.686 200.935,-483.317 283,-398.2 345.246,-333.639 450.76,-314.254 520.908,-308.78"/>
+<polygon fill="blue" stroke="blue" points="521.263,-312.264 530.992,-308.07 520.771,-305.282 521.263,-312.264"/>
+<text text-anchor="middle" x="336" y="-401.2" font-family="Times,serif" font-size="10.00">crm:P46_is_composed_of</text>
+</g>
+<!-- &quot;Gravestone&quot; -->
+<g id="node58" class="node">
+            <title>"Gravestone"</title>
+<text text-anchor="middle" x="593" y="-249.7" font-family="Times,serif" font-size="10.00">"Gravestone"</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;&quot;Gravestone&quot; -->
+<g id="edge56" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;"Gravestone"</title>
+<path fill="none" stroke="blue" d="M138.585,-669.827C145.127,-614.301 174.997,-422.036 283,-320.2 355.457,-251.88 480.266,-246.223 546.933,-248.739"/>
+<polygon fill="blue" stroke="blue" points="546.968,-252.244 557.117,-249.205 547.287,-245.252 546.968,-252.244"/>
+<text text-anchor="middle" x="336" y="-323.2" font-family="Times,serif" font-size="10.00">skos:prefLabel</text>
+</g>
+<!-- &quot;Instance of the gravestone&quot; -->
+<g id="node59" class="node">
+            <title>"Instance of the gravestone"</title>
+<text text-anchor="middle" x="593" y="-191.7" font-family="Times,serif" font-size="10.00">"Instance of the gravestone"</text>
+</g>
+<!-- http://www.steinheim&#45;institut.de/cgi&#45;bin/epidat?id=mz2&#45;2208&#45;&gt;&quot;Instance of the gravestone&quot; -->
+<g id="edge61" class="edge">
+            <title>http://www.steinheim-institut.de/cgi-bin/epidat?id=mz2-2208-&gt;"Instance of the gravestone"</title>
+<path fill="none" stroke="blue" d="M137.082,-670.026C138.288,-607.496 151.617,-367.529 283,-249.2 346.544,-191.97 448.311,-184.239 517.552,-186.825"/>
+<polygon fill="blue" stroke="blue" points="517.8,-190.34 527.949,-187.3 518.119,-183.348 517.8,-190.34"/>
+<text text-anchor="middle" x="336" y="-252.2" font-family="Times,serif" font-size="10.00">rdf:comment</text>
+</g>
+</g>
+</svg>

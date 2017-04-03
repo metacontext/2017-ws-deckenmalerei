@@ -82,7 +82,7 @@
             </h4>
 
             <h5>
-                <strong><a href="https://orcid.org/0000-0002-0953-2818">Torsten Schrade, Akademie Mainz</a></strong> |
+                <strong><a href="https://orcid.org/0000-0002-0953-2818">Torsten Schrade, Mainz</a></strong> |
                 <img src="resources/img/Twitter_bird_logo_2012.svg" alt="Twitter" class="twitter-icon" />
                 <a href="https://twitter.com/digicademy" title="Digital Academy on Twitter">@digicademy</a> |
                 <img src="resources/img/Octicons-mark-github.svg" alt="Twitter" class="gh-icon" />
@@ -92,16 +92,19 @@
         </div>
 
         <div class="step">
-            <h2>Table of Contents</h2>
+            <h2>Gliederung</h2>
             <ol class="line-height-one-five">
                 <li>
-                    One
+                    Das <em>Semantic Web</em> und <em>Linked Open Data</em>
                 </li>
                 <li>
-                    Two
+                    Raumzeitliche Analysen im Corpus Vitrearum Medii Aevi
                 </li>
                 <li>
-                    Three
+                    Die Deutschen Inschriften und das Projekt Inschriften im Bezugssystem des Raumes
+                </li>
+                <li>
+                    Raumzeitliche Analysen auf dem jüdischen Gedenkfriedhof in Mainz
                 </li>
             </ol>
         </div>
@@ -109,8 +112,137 @@
         <div class="step">
             <h1 class="red">01</h1>
             <h2 class="line-height-one-five">
-                Basics
+                Grundlagen
             </h2>
+            <h3 class="red">
+                Das <em>Semantic Web</em> und <em>Linked Open Data</em>
+            </h3>
+        </div>
+
+        <div class="step">
+            <h2>
+               Potentiale
+            </h2>
+            <h3 class="red up-25">
+               Vernetzung und Analyse von Forschungsdaten
+            </h3>
+            <div class="mfp-lightbox center">
+                <a href="resources/img/lod.png">
+                    <img src="resources/img/lod.png" style="width: 80%;" />
+                </a>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>
+                Fragestellungen
+            </h2>
+            <h3 class="red up-25">Mögliche Analysen mit Hilfe von Semantic Web-Technologien</h3>
+            <ul class="line-height-one-two-five">
+                <li class="substep">
+                    Glasmalerei: Welche Motive treten zu bestimmten Zeiten an bestimmten Standorten auf?
+                </li>
+                <li class="substep">
+                    Epigraphik: In welchem semantischen Bezug stehen Objekte an einem bestimmten Standort?
+                </li>
+                <li class="substep">
+                    Epigraphik: Gibt es Muster in der Verteilung von Objekten zu bestimmten Zeiten an bestimmten Orten?
+                </li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <h2>
+               Prinzipien
+            </h2>
+            <h3 class="red up-25">Offene und verlinkte Daten</h3>
+            <ul class="medium line-height-one-five">
+                <li class="substep">
+                    Tim Berners-Lee: "The Semantic Web is an <strong>extension of the current web</strong> in which information
+                    is given well-defined meaning, better enabling computers and people to work in cooperation" (<a href="http://www.sciam.com/article.cfm?articleID=00048144-10D2-1C70-84A9809EC588EF21">Quelle</a>)
+                </li>
+                <li class="substep">Das "Fife-Star" LOD Prinzip von Berners-Lee: (<a href="http://5stardata.info/de/">Quelle</a>)
+                    <ul class="line-height-one-five">
+                        <li class="substep">
+                            ★ Stelle Daten im Web unter einer offenen Lizenz bereit. Das Format ist dabei egal
+                        </li>
+                        <li class="substep">
+                            ★★ Stelle Daten in einem strukturierten Format bereit
+                        </li>
+                        <li class="substep">
+                            ★★★ Verwende offene, nicht proprietäre Formate
+                        </li>
+                        <li class="substep">
+                            ★★★★ Verwende URIs um Dinge zu bezeichnen
+                        </li>
+                        <li class="substep">
+                            ★★★★★ Verlinke deine Daten mit anderen Daten um Kontexte herzustellen
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <h2>
+               Nachnutzung
+            </h2>
+            <h3 class="red up-25">
+               LOD als Nachnutzungsformat für Fachdaten
+            </h3>
+            <h4>Fachdaten und/oder Metadaten zu diesen Fachdaten<br/> als LOD bereitzustellen ermöglicht ...</h4>
+            <ul class="medium line-height-one-five">
+                <li class="substep">
+                    ... es Dritten, meine digitalen Ressourcen zu finden.
+                </li>
+                <li class="substep">
+                    ... einen freien, strukturierten und maschinenlesbaren Zugriff (ggf. zu eigenen Analysezwecken).
+                </li>
+                <li class="substep">
+                    ... eine standardisierte Bereitstellung der Informationen nach W3C- und ISO-Standards.
+                </li>
+                <li class="substep">
+                    ... die Daten in einen größeren Kontext zu stellen und Datensilos somit aufzulösen.
+                </li>
+            </ul>
+            <p class="substep">
+                <strong>Und zwar ohne Kontrollverlust über die eigenen Daten und deren Qualität!</strong>
+            </p>
+        </div>
+
+        <div class="step">
+            <h2>
+               Grundeinheit
+            </h2>
+            <h3 class="red">Das Triple - eine Aussage</h3>
+<pre class="pull-25">
+<code class="xml"><span class="subject-color">&lt;epidat:Grabstein&gt;</span>    <span class="predicate-color">&lt;a&gt;</span>                          <span class="object-color">&lt;crm:E18_Physical_Thing&gt;</span> ;
+                      <span class="predicate-color">&lt;owltime:xsdDateTime&gt;</span>        <span class="object-color">"1119-05-18"</span> ;
+                      <span class="predicate-color">&lt;crm:P1_is_identified_by&gt;</span>    <span class="object-color">&lt;crm:E44_Place_Appelation&gt;</span> .
+
+<span class="subject-color">&lt;crm:E44_Place_Appelation&gt;</span> <span class="predicate-color">&lt;crm:P87_is_identified_by&gt;</span> <span class="object-color">&lt;crm:E47_Spatial_Coordinates&gt;</span> .
+
+<span class="subject-color">&lt;crm:E47_Spatial_Coordinates&gt;</span> <span class="predicate-color">&lt;crm:P3_has_note&gt;</span>    <span class="object-color">"50.004933 8.249554"</span> .
+
+</code>
+</pre>
+
+            <ul class="legend">
+                <li class="subject">Subjekt</li>
+                <li class="predicate">Prädikat</li>
+                <li class="object">Objekt</li>
+                <li class="none">&lt;...&gt; = URIs, "..." = Literale</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <h1 class="red">02</h1>
+            <h2 class="line-height-one-five">
+                Fallbeispiel I
+            </h2>
+            <h3 class="red">
+                Raumzeitliche Analysen im Corpus Vitrearum Medii Aevi
+            </h3>
         </div>
 
         <div class="step">
