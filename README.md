@@ -1,15 +1,15 @@
-### Date | Place
+### 04. April 2017 | Marburg
 
-# Title
+# Semantische Technologien und Fragen des Raums
 
-## Subtitle
+## Beispiele aus den Projekten »Die Deutschen Inschriften« und »Corpus Vitrearum Medii Aevi«
 
-### Author
+### Torsten Schrade
 
-Description
+Slides zum Vortrag im Rahmen des Workshops "Digitale Raumdarstellungen. Barocke Kunst im 
+Kontext aktueller Zugriffe der Spatial Humanities"
 
-The code of this boilerplate is at https://github.com/digicademy/impress-js-boilerplate
+Online unter: https://metacontext.github.io/2017-ws-deckenmalerei/
 
-A live demo can be found at http://digicademy.github.io/impress-js-boilerplate/
-
-Released under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/), @digicademy
+Released under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/), 
+[Torsten Schrade](https://orcid.org/0000-0002-0953-2818)

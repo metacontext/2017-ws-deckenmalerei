@@ -22,12 +22,6 @@
 
     <!-- styles for included libraries -->
 
-    <!-- chartist -->
-    <link rel="stylesheet" href="vendor/chartist/chartist.min-0.9.7.css" />
-
-    <!-- codemirror -->
-    <link rel="stylesheet" href="vendor/codemirror/lib/codemirror.css" />
-
     <!-- highlight -->
     <link rel="stylesheet" href="vendor/highlight/styles/default.css" />
     <link rel="stylesheet" href="resources/css/hljs.linenumbering.css" />
@@ -40,13 +34,6 @@
 
     <!-- custom presentation styles -->
     <link href="resources/css/custom.css" rel="stylesheet" />
-
-    <!-- js needed in head -->
-
-    <!-- greuler -->
-    <script src="vendor/d3/d3-3.5.6.js"></script>
-    <script src="vendor/cola/cola.v3.min.js"></script>
-    <script src="vendor/greuler/greuler-0.5.5.min.js"></script>
 
     <!-- html5 dataset shim for IE -->
     <script src="vendor/impress/html5-dataset.js" type="text/javascript"></script>
@@ -212,9 +199,9 @@
 
         <div class="step">
             <h2>
-               Grundeinheit
+               Basis
             </h2>
-            <h3 class="red">Das Triple - eine Aussage</h3>
+            <h3 class="red">Das Triple - hier ein epigraphisches Beispiel</h3>
 <pre class="pull-25">
 <code class="xml"><span class="subject-color">&lt;epidat:Grabstein&gt;</span>    <span class="predicate-color">&lt;a&gt;</span>                          <span class="object-color">&lt;crm:E18_Physical_Thing&gt;</span> ;
                       <span class="predicate-color">&lt;owltime:xsdDateTime&gt;</span>        <span class="object-color">"1119-05-18"</span> ;
@@ -236,6 +223,57 @@
         </div>
 
         <div class="step">
+
+            <h2>Grundbegriffe</h2>
+            <h3 class="red up-25">Vokabulare und Ontologien</h3>
+            <div class="row">
+                <div class="eight columns">
+                    <ul class="small line-height-one-five">
+                        <li class="substep">Ontologien modellieren <strong>Begriffe bzw. Informationskonzepte</strong> und deren <strong>jeweilige Beziehungen</strong> untereinander</li>
+                        <li class="substep"><strong>Geisteswissenschaftliche Informationskonzepte</strong> können bspw. sein:
+                            <ul>
+                                <li>Personen und deren Familienbeziehungen untereinander</li>
+                                <li>Ereignisse und deren Auswirkungen</li>
+                                <li>Kunstwerke bzw. Artefakte, deren Enstehung und Eigenschaften</li>
+                                <li>... etc.</li>
+                            </ul>
+                        </li>
+                        <li class="substep">
+                            <strong>Hilfreiche Ontologien</strong> für die Geistes- und Kulturwissenschaften sind u.a.:
+                            <ul>
+                                <li><a href="http://xmlns.com/foaf/spec/">FOAF</a> (Personen)</li>
+                                <li><a href="http://purl.org/vocab/relationship/">REL</a> (Beziehungen zwischen Personen)</li>
+                                <li><a href="http://vocab.org/bio/">BIO</a> (Eigenschaften von Personen)</li>
+                                <li><a href="http://www.cidoc-crm.org/cidoc-crm/">CIDOC-CRM</a> bzw. <a href="http://erlangen-crm.org/docs/ecrm/current/index.html">Erlangen-CRM</a> (Kulturelles Erbe)</li>
+                                <li>... und viele viele Weitere. <strong>Ontologien finden:</strong> <a href="http://prefix.cc/">http://prefix.cc/</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="four columns mfp-lightbox centered">
+                    <a href="resources/img/concepts.jpg">
+                        <img src="resources/img/concepts.jpg" alt="" title="" style="width: 60%;">
+                    </a>
+                    <p class="small">Vokabulare und Ontologien modellieren Konzepte</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="step">
+            <h2 class="down-50">
+              Das CIDOC-CRM
+            </h2>
+            <h3 class="red up-25">Eine Ontologie für Objekte des kulturellen Erbes</h3>
+            <div class="down-35 mfp-lightbox center">
+                <a href="resources/img/cidoc.png">
+                    <img src="resources/img/cidoc.png" style="width: 80%;" />
+                </a>
+            </div>
+            <p class="medium">Gute Übersicht: <a href="http://erlangen-crm.org/docs/ecrm/current/index.html">Erlangen CRM/OWL Implementierung</a></p>
+        </div>
+
+        <div class="step">
             <h1 class="red">02</h1>
             <h2 class="line-height-one-five">
                 Fallbeispiel I
@@ -246,359 +284,754 @@
         </div>
 
         <div class="step">
-            <h1>Heading (H1)</h1>
-            <h2>Heading (H2)</h2>
-            <h3>Heading (H3)</h3>
-            <h4>Heading (H4)</h4>
-            <h5>Heading (H5)</h5>
-            <h6>Heading (H6)</h6>
-        </div>
-
-        <div class="step">
-            <h2>Text</h2>
-            <h3 class="red up-25 after-25">Standard text styles</h3>
-            <p class="justify">
-               To die or fly to <span class="dotted">dream</span>: ay, <em>that makes calamity of office</em>, and to be: to dread of, and the heart-ache<sup>1</sup>
-               and sweat pith their <span class="outline">currents</span> turns, puzzles <code>the pale cast of outrageous</code> for who would bear, <strong>to be
-               or to sleep</strong> of <del>death</del> <ins>life</ins> what pith and sweat pith <span class="underline">the pangs and arrows</span> of dispriz'd lose ills
-               we have shuffled o'er with a <span class="highlight">bare</span> bourn no <a href="https://en.wikipedia.org/wiki/Mortal_coil">mortal coil</a>. <cite>W.S., Volume<sub>2</sub></cite>
-            </p>
-            <blockquote>
-                Beware the Jabberwock, my son!
-                The jaws that bite, the claws that catch!
-                Beware the Jubjub bird, and shun
-                The frumious Bandersnatch!
-            </blockquote>
-        </div>
-
-        <div class="step">
-            <h2>Text</h2>
-            <h3 class="red up-25 after-25">Text classes (medium, small, x-small)</h3>
-            <h4><strong>medium</strong></h4>
-            <p class="medium up-25">
-               To die or fly to <span class="dotted">dream</span>: ay, <em>that makes calamity of office</em>, and to be: to dread of, and the heart-ache<sup>1</sup>
-               and sweat pith their <span class="outline">currents</span> turns, puzzles <code>the pale cast of outrageous</code> for who would bear, <strong>to be
-               or to sleep</strong> of <del>death</del> <ins>life</ins> what pith and sweat pith <span class="underline">the pangs and arrows</span> of dispriz'd lose ills
-               we have shuffled o'er with a <span class="highlight">bare</span> bourn no <a href="https://en.wikipedia.org/wiki/Mortal_coil">mortal coil</a>. <cite>W.S., Volume<sub>2</sub></cite>
-            </p>
-            <h5><strong>small</strong></h5>
-            <p class="small up-25">
-               To die or fly to <span class="dotted">dream</span>: ay, <em>that makes calamity of office</em>, and to be: to dread of, and the heart-ache<sup>1</sup>
-               and sweat pith their <span class="outline">currents</span> turns, puzzles <code>the pale cast of outrageous</code> for who would bear, <strong>to be
-               or to sleep</strong> of <del>death</del> <ins>life</ins> what pith and sweat pith <span class="underline">the pangs and arrows</span> of dispriz'd lose ills
-               we have shuffled o'er with a <span class="highlight">bare</span> bourn no <a href="https://en.wikipedia.org/wiki/Mortal_coil">mortal coil</a>. <cite>W.S., Volume<sub>2</sub></cite>
-            </p>
-            <h6><strong>x-small</strong></h6>
-            <p class="x-small up-25">
-               To die or fly to <span class="dotted">dream</span>: ay, <em>that makes calamity of office</em>, and to be: to dread of, and the heart-ache<sup>1</sup>
-               and sweat pith their <span class="outline">currents</span> turns, puzzles <code>the pale cast of outrageous</code> for who would bear, <strong>to be
-               or to sleep</strong> of <del>death</del> <ins>life</ins> what pith and sweat pith <span class="underline">the pangs and arrows</span> of dispriz'd lose ills
-               we have shuffled o'er with a <span class="highlight">bare</span> bourn no <a href="https://en.wikipedia.org/wiki/Mortal_coil">mortal coil</a>. <cite>W.S., Volume<sub>2</sub></cite>
-            </p>
-        </div>
-
-        <div class="step">
-            <h2>Lists, Lists, Lists</h2>
-            <h3 class="red up-25 after-25">Definition, unordered, ordered</h3>
-            <div class="row">
-                <div class="four columns">
-                    <dl>
-                        <dt>
-                            Acceleration
-                        </dt>
-                        <dd>
-                            A constant force, acting on a particle of mass m, will produce a constant acceleration a
-                        </dd>
-                        <dt>
-                            Energy
-                        </dt>
-                        <dd>
-                            If we represent kinetic energy by the symbol K, then K = ½ m v²
-                        </dd>
-                    </dl>
-                </div>
-                <div class="four columns">
-                    <h3>Medium</h3>
-                    <ul>
-                        <li>One</li>
-                        <li>Two
-                            <ul>
-                                <li>Two.One</li>
-                                <li>Two.Two</li>
-                            </ul>
-                        </li>
-                        <li>Three</li>
-                    </ul>
-                    <h4>Small</h4>
-                    <ul class="small">
-                        <li>One</li>
-                        <li>Two
-                            <ul>
-                                <li>Two.One</li>
-                                <li>Two.Two</li>
-                            </ul>
-                        </li>
-                        <li>Three</li>
-                    </ul>
-                </div>
-                <div class="four columns">
-                    <h3>Medium</h3>
-                    <ol>
-                        <li>One</li>
-                        <li>Two
-                            <ol>
-                                <li>Two.One</li>
-                                <li>Two.Two</li>
-                            </ol>
-                        </li>
-                        <li>Thre</li>
-                    </ol>
-                    <h4>Small</h4>
-                    <ol class="small">
-                        <li>One</li>
-                        <li>Two
-                            <ol>
-                                <li>Two.One</li>
-                                <li>Two.Two</li>
-                            </ol>
-                        </li>
-                        <li>Thre</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-
-        <div class="step">
-            <h2>Tables</h2>
-            <h3 class="red up-25 after-50">Table styles</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>One</th>
-                        <th>Two</th>
-                        <th>Three</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Four</td>
-                        <td>Five</td>
-                        <td>Six</td>
-                    </tr>
-                    <tr>
-                        <td>Seven</td>
-                        <td>Eight</td>
-                        <td>Nine</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <div class="step">
-            <h1 class="red">02</h1>
-            <h2 class="line-height-one-five">
-                Advanced
-            </h2>
-        </div>
-
-        <div class="step">
-            <h2>Slide structure</h2>
-            <h3 class="red up-25 after-50">Twelfe column grid with skeleton.css</h3>
-            <div class="example-grid">
-                <div class="row">
-                    <div class="one column">One</div>
-                    <div class="eleven columns">Eleven</div>
-                </div>
-                <div class="row">
-                    <div class="two columns">Two</div>
-                    <div class="ten columns">Ten</div>
-                </div>
-                <div class="row">
-                    <div class="three columns">Three</div>
-                    <div class="nine columns">Nine</div>
-                </div>
-                <div class="row">
-                    <div class="four columns">Four</div>
-                    <div class="eight columns">Eight</div>
-                </div>
-                <div class="row">
-                    <div class="five columns">Five</div>
-                    <div class="seven columns">Seven</div>
-                </div>
-                <div class="row">
-                    <div class="six columns">Six</div>
-                    <div class="six columns">Six</div>
-                </div>
-                <div class="row">
-                    <div class="seven columns">Seven</div>
-                    <div class="five columns">Five</div>
-                </div>
-                <div class="row">
-                    <div class="eight columns">Eight</div>
-                    <div class="four  columns">Four</div>
-                </div>
-                <div class="row">
-                    <div class="nine columns">Nine</div>
-                    <div class="three columns">Three</div>
-                </div>
-                <div class="row">
-                    <div class="ten columns">Ten</div>
-                    <div class="two columns">Two</div>
-                </div>
-                <div class="row">
-                    <div class="eleven columns">Eleven</div>
-                    <div class="one column">One</div>
-                </div>
-            </div>
-            <p class="down-25">
-                Website: <a href="http://getskeleton.com/">http://getskeleton.com/</a>
-            </p>
-        </div>
-
-        <div class="step">
-            <h2>Substeps</h2>
-            <h3 class="red up-25 after-50">Triggered with class "substep"</h3>
-            <ul class="line-height-one-five">
-                <li class="substep">One</li>
-                <li class="substep">Two</li>
-                <li class="substep">Three</li>
-                <li class="substep">Four</li>
-                <li class="substep">Five</li>
-            </ul>
-        </div>
-
-        <div class="step">
-            <h2>Responsive images</h2>
-            <h3 class="red up-25 after-50">With magnific popup</h3>
-            <div class="mfp-lightbox row">
-                <div class="three columns">
-                    <a href="resources/img/1024x768.png">
-                        <img src="resources/img/1024x768.png" />
+            <h2>Das Digitale Bildarchiv des CVMA</h2>
+            <h3 class="red up-25">Einige Funktionalitäten im Überblick</h3>
+            <div class="row mfp-lightbox">
+                <div class="seven columns">
+                    <a href="resources/img/screenshots_cvma_01.png">
+                        <img src="resources/img/screenshots_cvma_01.png" alt="Screenshot" title="Startseite des CVMA" width="100%" />
                     </a>
-                </div>
-                <div class="four columns">
-                    <a href="resources/img/1024x768.png">
-                        <img src="resources/img/1024x768.png" />
-                    </a>
+                    <p>
+                        <a class="small" href="http://www.corpusvitrearum.de/">http://www.corpusvitrearum.de/</a>
+                    </p>
                 </div>
                 <div class="five columns">
-                    <a href="resources/img/1024x768.png">
-                        <img src="resources/img/1024x768.png" />
+                    <a href="resources/img/screenshots_cvma_02.png" style="float: left; width: 50%">
+                        <img src="resources/img/screenshots_cvma_02.png" alt="" title="" />
+                    </a>
+                    <a href="resources/img/screenshots_cvma_03.png" style="float: left; width: 50%">
+                        <img src="resources/img/screenshots_cvma_03.png" alt="" title="" />
+                    </a>
+                    <ul class="even-left medium down-25" style="clear: both;">
+                        <li>
+                            Hochauflösende TIFF-Bilder zum freien Download (CC-BY)
+                        </li>
+                        <li>
+                            Metadaten eingebettet als XMP (ISO-Standard)
+                        </li>
+                        <li>
+                            Inhaltliche Erschließung mit kontrollierem Vokabular (ICONCLASS)
+                        </li>
+                        <li>
+                            REST-Schnittstellen für Metadaten in XMP und JSON-LD (Semantic Web)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2 class="down-50">Erfassungsworkflow</h2>
+            <h3 class="red up-25">Systemneutrale Bild &amp; Metadaten</h3>
+            <div class="row mfp-lightbox">
+                <div class="five columns">
+                    <a href="resources/img/cvma_workflow.png">
+                        <img src="resources/img/cvma_workflow.png" alt="" title="" height="540" />
+                    </a>
+                </div>
+                <div class="seven columns">
+                    <div class="row">
+                        <div class="four columns">
+                            <a href="resources/img/cvma_xmp_exiftool.jpg">
+                                <img src="resources/img/cvma_xmp_exiftool.jpg" alt="" title="" width="100%" />
+                            </a>
+                        </div>
+                        <div class="four columns">
+                            <a href="resources/img/cvma_xmp_ps.jpg">
+                                <img src="resources/img/cvma_xmp_ps.jpg" alt="" title="" width="100%" />
+                            </a>
+                        </div>
+                        <div class="four columns">
+                            <a href="resources/img/cvma_xmp_typo3.png">
+                                <img src="resources/img/cvma_xmp_typo3.png" alt="" title="" width="100%" />
+                            </a>
+                        </div>
+                    </div>
+                    <p class="x-small">Metadaten in der Exiftool-GUI, Adobe Photoshop und in TYPO3</p>
+                    <a href="resources/img/cvma_ddd.png">
+                        <img src="resources/img/cvma_ddd.png" alt="" title="" width="100%" />
                     </a>
                 </div>
             </div>
-            <p class="down-50">
-                Website: <a href="http://dimsemenov.com/plugins/magnific-popup/">http://dimsemenov.com/plugins/magnific-popup/</a>
-            </p>
         </div>
 
         <div class="step">
-            <h2>Code listings</h2>
-            <h3 class="red up-25 after-50">With highlight.js (support for most languages)</h3>
+            <h2 class="down-50">Beispieldaten</h2>
+            <h3 class="red up-25">XMP Output</h3>
 <pre>
-<code class="linenumbers js">function $initHighlight(block, cls) {
-  try {
-    if (cls.search(/\bno\-highlight\b/) != -1)
-      return process(block, true, 0x0F) +
-             ` class="${cls}"`;
-  } catch (e) {
-    /* handle exception */
-  }
-  for (var i = 0 / 2; i < classes.length; i++) {
-    if (checkCondition(classes[i]) === undefined)
-      console.log('undefined');
-  }
-}
+<code class="linenumbers xml">&lt;rdf:Description rdf:about="http://id.corpusvitrearum.de/images/2622"&gt;
 
-export  $initHighlight;
+  [...]
+
+  &lt;cvma:IconclassNotation&gt;11G31&lt;/cvma:IconclassNotation&gt;
+  &lt;cvma:IconclassDescription&gt;
+    der Erzengel Michael kämpft gegen den Drachen (Teufel, Satan)
+  &lt;/cvma:IconclassDescription&gt;
+
+  [...]
+
+  &lt;cvma:AgeDeterminationStart&gt;1210-01-01&lt;/cvma:AgeDeterminationStart&gt;
+  &lt;cvma:AgeDeterminationEnd&gt;1260-12-31&lt;/cvma:AgeDeterminationEnd&gt;
+
+  [...]
+
+  &lt;exif:GPSLatitude&gt;49.4971&lt;/exif:GPSLatitude&gt;
+  &lt;exif:GPSLongitude&gt;11.389811111111&lt;/exif:GPSLongitude&gt;
+
+&lt;/rdf:Description>
 </code>
 </pre>
-        <p>
-             Website:  <a href="https://highlightjs.org/">https://highlightjs.org/</a>
-        </p>
+            <p class="small up-50"><a href="http://id.corpusvitrearum.de/images/2622.xmp">http://id.corpusvitrearum.de/images/2622.xmp</a></p>
         </div>
 
         <div class="step">
-            <h2>Alternative code listing</h2>
-            <h3 class="red up-25 after-25">With Codemirror (support for even more languages)</h3>
-<form><textarea id="sparql" name="sparql">
-PREFIX rel: &lt;http://purl.org/vocab/relationship/&gt;
-PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
-PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
-
-SELECT DISTINCT ?subject ?subjectLabel ?object ?objectLabel ?predicate
-WHERE {
-    ?subject ?predicate ?object .
-    ?subject (rel:parentOf|^rel:parentOf|rel:spouseOf) ?object .
-    ?subject rdfs:label ?subjectLabel .
-    ?object rdfs:label ?objectLabel .
-    ?subject foaf:gender ?subjectGender .
-    ?object foaf:gender ?objectGender .
-    BIND (IF(?subjectGender = "male"@en, "gold", "yellowgreen") AS ?sourceColor)
-    BIND (IF(?objectGender = "male"@en, "gold", "yellowgreen") AS ?targetColor)
-}
-</textarea></form>
-        <p>
-             Website:  <a href="https://codemirror.net/">https://codemirror.net/</a>
-        </p>
-        </div>
-
-        <div class="step">
-            <h2>Charts</h2>
-            <h3 class="red up-25 after-50">With chartist.js</h3>
-            <div class="ct-container">
-                <div class="ct-chart ct-major-twelfth project-count"></div>
+            <h2>Verknüpfung</h2>
+            <h3 class="red up-25">CVMA + Iconclass + Geonames + Palladio</h3>
+            <div class="row mfp-lightbox">
+                <div class="ten columns">
+                    <a href="resources/img/cvma_linking.png">
+                        <img src="resources/img/cvma_linking.png" alt="" title="" width="100%" />
+                    </a>
+                </div>
             </div>
-            <p class="down-25">
-                 Website: <a href="https://gionkunz.github.io/chartist-js/">https://gionkunz.github.io/chartist-js/</a>
+        </div>
+
+        <div class="step">
+            <h2>CVMA - Stufe 01</h2>
+            <h3 class="red up-25">CIDOC und SKOS Klassen, dcterms</h3>
+            <p>
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="596pt" height="163pt" viewBox="0.00 0.00 596.00 163.00">
+                    <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 159)">
+                        <title>d1e17</title>
+                        <polygon style="fill:white;stroke:white;" points="-4,4 -4,-159 592,-159 592,4 -4,4"/>
+                        <!-- http://id.corpusvitrearum.de/images/2622 -->
+                        <g id="node1" class="node">
+                            <title>http://id.corpusvitrearum.de/images/2622</title>
+                            <a xlink:href="http://id.corpusvitrearum.de/images/2622" xlink:title="crm:E18_Physical_Thing, skos:Concept:\nhttp://id.corpusvitrearum.de/images/2622">
+                                <polygon style="fill:none;stroke:black;" points="215,-98 1,-98 1,-64 215,-64 215,-98"/>
+                                <text text-anchor="middle" x="108" y="-85" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">crm:E18_Physical_Thing, skos:Concept:</text>
+                                <text text-anchor="middle" x="108" y="-72" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://id.corpusvitrearum.de/images/2622</text>
+                            </a>
+                        </g>
+                        <!-- &quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich&quot; -->
+                        <g id="node3" class="node">
+                            <title>"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich"</title>
+                            <text text-anchor="middle" x="461" y="-142.5" style="font-family:Times New Roman;font-size:10.00px;">"der Erzengel Michael kämpft gegen den Drachen</text>
+                            <text text-anchor="middle" x="461" y="-129.5" style="font-family:Times New Roman;font-size:10.00px;">(Teufel, Satan) Drache · Engel · Erzengel ·</text>
+                            <text text-anchor="middle" x="461" y="-116.5" style="font-family:Times New Roman;font-size:10.00px;">Michael · Religion · Satan · Teufel · christliche</text>
+                            <text text-anchor="middle" x="461" y="-103.5" style="font-family:Times New Roman;font-size:10.00px;">Religion · kämpfen · mit Füßen treten · trampeln ·</text>
+                            <text text-anchor="middle" x="461" y="-90.5" style="font-family:Times New Roman;font-size:10.00px;">übernatürlich"</text>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich&quot; -->
+                        <g id="edge2" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich"</title>
+                            <path style="fill:none;stroke:blue;" d="M216,-93C250,-97 288,-100 324,-105"/>
+                            <polygon style="fill:blue;stroke:blue;" points="323.701,-108.488 334,-106 324.398,-101.522 323.701,-108.488"/>
+                            <text text-anchor="middle" x="275" y="-105.5" style="font-family:Times New Roman;font-size:10.00px;">dcterms:description</text>
+                        </g>
+                        <!-- &quot;Hl. Michael als Drachentöter&quot; -->
+                        <g id="node5" class="node">
+                            <title>"Hl. Michael als Drachentöter"</title>
+                            <text text-anchor="middle" x="461" y="-40.5" style="font-family:Times New Roman;font-size:10.00px;">"Hl. Michael als Drachentöter"</text>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;Hl. Michael als Drachentöter&quot; -->
+                        <g id="edge4" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;"Hl. Michael als Drachentöter"</title>
+                            <path style="fill:none;stroke:blue;" d="M216,-69C265,-63 324,-58 371,-52"/>
+                            <polygon style="fill:blue;stroke:blue;" points="371.398,-55.4778 381,-51 370.701,-48.5125 371.398,-55.4778"/>
+                            <text text-anchor="middle" x="275" y="-69.5" style="font-family:Times New Roman;font-size:10.00px;">dcterms:title</text>
+                        </g>
+                    </g>
+                </svg>
             </p>
         </div>
 
         <div class="step">
-            <h2>Graph models</h2>
-            <h3 class="red up-25 after-25">With greuler.js</h3>
-            <div id="greuler"></div>
-            <script>
-                'use strict';
-                greuler({
-                  target: '#greuler',
-                  width: 480,
-                  height: 300,
-                  data: greuler.Graph.random({
-                    order: 5,
-                    size: 5,
-                    connected: true
-                  })
-                }).update()
-            </script>
-            <p class="down-75">
-                 Website: <a href="https://maurizzzio.github.io/greuler/#/">https://maurizzzio.github.io/greuler/#/</a>
+            <h2>CVMA - Stufe 02</h2>
+            <h3 class="red up-25">Verbindung zu Iconclass</h3>
+            <p>
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="596pt" height="205pt" viewBox="0.00 0.00 596.00 205.00">
+                    <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 201)">
+                        <title>d1e31</title>
+                        <polygon style="fill:white;stroke:white;" points="-4,4 -4,-201 592,-201 592,4 -4,4"/>
+                        <!-- http://id.corpusvitrearum.de/images/2622 -->
+                        <g id="node1" class="node">
+                            <title>http://id.corpusvitrearum.de/images/2622</title>
+                            <a xlink:href="http://id.corpusvitrearum.de/images/2622" xlink:title="crm:E18_Physical_Thing, skos:Concept:\nhttp://id.corpusvitrearum.de/images/2622">
+                                <polygon style="fill:none;stroke:black;" points="215,-110 1,-110 1,-76 215,-76 215,-110"/>
+                                <text text-anchor="middle" x="108" y="-97" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">crm:E18_Physical_Thing, skos:Concept:</text>
+                                <text text-anchor="middle" x="108" y="-84" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://id.corpusvitrearum.de/images/2622</text>
+                            </a>
+                        </g>
+                        <!-- &quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich&quot; -->
+                        <g id="node3" class="node">
+                            <title>"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich"</title>
+                            <text text-anchor="middle" x="461" y="-184.5" style="font-family:Times New Roman;font-size:10.00px;">"der Erzengel Michael kämpft gegen den Drachen</text>
+                            <text text-anchor="middle" x="461" y="-171.5" style="font-family:Times New Roman;font-size:10.00px;">(Teufel, Satan) Drache · Engel · Erzengel ·</text>
+                            <text text-anchor="middle" x="461" y="-158.5" style="font-family:Times New Roman;font-size:10.00px;">Michael · Religion · Satan · Teufel · christliche</text>
+                            <text text-anchor="middle" x="461" y="-145.5" style="font-family:Times New Roman;font-size:10.00px;">Religion · kämpfen · mit Füßen treten · trampeln ·</text>
+                            <text text-anchor="middle" x="461" y="-132.5" style="font-family:Times New Roman;font-size:10.00px;">übernatürlich"</text>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich&quot; -->
+                        <g id="edge2" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich"</title>
+                            <path style="fill:none;stroke:blue;" d="M197,-110C235,-117 282,-127 324,-134"/>
+                            <polygon style="fill:blue;stroke:blue;" points="323.508,-137.471 334,-136 324.881,-130.607 323.508,-137.471"/>
+                            <text text-anchor="middle" x="275" y="-135.5" style="font-family:Times New Roman;font-size:10.00px;">dcterms:description</text>
+                        </g>
+                        <!-- http://iconclass.org/11G31 -->
+                        <g id="node5" class="node">
+                            <title>http://iconclass.org/11G31</title>
+                            <a xlink:href="http://iconclass.org/11G31" xlink:title="http://iconclass.org/11G31">
+                                <polygon style="fill:none;stroke:black;" points="531,-103.5 391,-103.5 391,-82.5 531,-82.5 531,-103.5"/>
+                                <text text-anchor="middle" x="461" y="-90.5" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://iconclass.org/11G31</text>
+                            </a>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;http://iconclass.org/11G31 -->
+                        <g id="edge4" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;http://iconclass.org/11G31</title>
+                            <path style="fill:none;stroke:blue;" d="M216,-93C269,-93 332,-93 380,-93"/>
+                            <polygon style="fill:blue;stroke:blue;" points="380,-96.5001 390,-93 380,-89.5001 380,-96.5001"/>
+                            <text text-anchor="middle" x="275" y="-96.5" style="font-family:Times New Roman;font-size:10.00px;">rdfs:seeAlso</text>
+                        </g>
+                        <!-- &quot;Hl. Michael als Drachentöter&quot; -->
+                        <g id="node7" class="node">
+                            <title>"Hl. Michael als Drachentöter"</title>
+                            <text text-anchor="middle" x="461" y="-40.5" style="font-family:Times New Roman;font-size:10.00px;">"Hl. Michael als Drachentöter"</text>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;Hl. Michael als Drachentöter&quot; -->
+                        <g id="edge6" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;"Hl. Michael als Drachentöter"</title>
+                            <path style="fill:none;stroke:blue;" d="M216,-77C219,-76 223,-76 227,-75 274,-69 328,-61 371,-55"/>
+                            <polygon style="fill:blue;stroke:blue;" points="371.398,-58.4778 381,-54 370.701,-51.5125 371.398,-58.4778"/>
+                            <text text-anchor="middle" x="275" y="-78.5" style="font-family:Times New Roman;font-size:10.00px;">dcterms:title</text>
+                        </g>
+                    </g>
+                </svg>
             </p>
+        </div>
+
+        <div class="step">
+            <h2>CVMA - Stufe 03</h2>
+            <h3 class="red up-25">Ikonographisch ähnliche Ressourcen via Europeana</h3>
+            <p>
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="844pt" height="247pt" viewBox="0.00 0.00 844.00 247.00">
+                    <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 243)">
+                        <title>d1e53</title>
+                        <polygon style="fill:white;stroke:white;" points="-4,4 -4,-243 840,-243 840,4 -4,4"/>
+                        <!-- http://id.corpusvitrearum.de/images/2622 -->
+                        <g id="node1" class="node">
+                            <title>http://id.corpusvitrearum.de/images/2622</title>
+                            <a xlink:href="http://id.corpusvitrearum.de/images/2622" xlink:title="crm:E18_Physical_Thing, skos:Concept:\nhttp://id.corpusvitrearum.de/images/2622">
+                                <polygon style="fill:none;stroke:black;" points="215,-131 1,-131 1,-97 215,-97 215,-131"/>
+                                <text text-anchor="middle" x="108" y="-118" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">crm:E18_Physical_Thing, skos:Concept:</text>
+                                <text text-anchor="middle" x="108" y="-105" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://id.corpusvitrearum.de/images/2622</text>
+                            </a>
+                        </g>
+                        <!-- &quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich&quot; -->
+                        <g id="node3" class="node">
+                            <title>"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich"</title>
+                            <text text-anchor="middle" x="585" y="-226.5" style="font-family:Times New Roman;font-size:10.00px;">"der Erzengel Michael kämpft gegen den Drachen</text>
+                            <text text-anchor="middle" x="585" y="-213.5" style="font-family:Times New Roman;font-size:10.00px;">(Teufel, Satan) Drache · Engel · Erzengel ·</text>
+                            <text text-anchor="middle" x="585" y="-200.5" style="font-family:Times New Roman;font-size:10.00px;">Michael · Religion · Satan · Teufel · christliche</text>
+                            <text text-anchor="middle" x="585" y="-187.5" style="font-family:Times New Roman;font-size:10.00px;">Religion · kämpfen · mit Füßen treten · trampeln ·</text>
+                            <text text-anchor="middle" x="585" y="-174.5" style="font-family:Times New Roman;font-size:10.00px;">übernatürlich"</text>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich&quot; -->
+                        <g id="edge2" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich"</title>
+                            <path style="fill:none;stroke:blue;" d="M185,-131C199,-134 213,-137 227,-140 300,-154 382,-169 448,-180"/>
+                            <polygon style="fill:blue;stroke:blue;" points="447.508,-183.471 458,-182 448.881,-176.607 447.508,-183.471"/>
+                            <text text-anchor="middle" x="275" y="-158.5" style="font-family:Times New Roman;font-size:10.00px;">dcterms:description</text>
+                        </g>
+                        <!-- http://iconclass.org/11G31 -->
+                        <g id="node5" class="node">
+                            <title>http://iconclass.org/11G31</title>
+                            <a xlink:href="http://iconclass.org/11G31" xlink:title="http://iconclass.org/11G31">
+                                <polygon style="fill:none;stroke:black;" points="655,-145.5 515,-145.5 515,-124.5 655,-124.5 655,-145.5"/>
+                                <text text-anchor="middle" x="585" y="-132.5" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://iconclass.org/11G31</text>
+                            </a>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;http://iconclass.org/11G31 -->
+                        <g id="edge4" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;http://iconclass.org/11G31</title>
+                            <path style="fill:none;stroke:blue;" d="M216,-119C303,-123 424,-128 504,-131"/>
+                            <polygon style="fill:blue;stroke:blue;" points="503.701,-134.488 514,-132 504.398,-127.522 503.701,-134.488"/>
+                            <text text-anchor="middle" x="275" y="-125.5" style="font-family:Times New Roman;font-size:10.00px;">rdfs:seeAlso</text>
+                        </g>
+                        <!-- http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22 -->
+                        <g id="node7" class="node">
+                            <title>http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22</title>
+                            <a xlink:href="http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22" xlink:title="http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22">
+                                <polygon style="fill:none;stroke:black;" points="835,-103.5 335,-103.5 335,-82.5 835,-82.5 835,-103.5"/>
+                                <text text-anchor="middle" x="585" y="-90.5" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22</text>
+                            </a>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22 -->
+                        <g id="edge6" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22</title>
+                            <path style="fill:none;stroke:blue;" d="M216,-102C219,-101 223,-101 227,-101 259,-99 291,-97 324,-96"/>
+                            <polygon style="fill:blue;stroke:blue;" points="324,-99.5001 334,-96 324,-92.5001 324,-99.5001"/>
+                            <text text-anchor="middle" x="275" y="-104.5" style="font-family:Times New Roman;font-size:10.00px;">rdfs:seeAlso</text>
+                        </g>
+                        <!-- &quot;Hl. Michael als Drachentöter&quot; -->
+                        <g id="node9" class="node">
+                            <title>"Hl. Michael als Drachentöter"</title>
+                            <text text-anchor="middle" x="585" y="-40.5" style="font-family:Times New Roman;font-size:10.00px;">"Hl. Michael als Drachentöter"</text>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;Hl. Michael als Drachentöter&quot; -->
+                        <g id="edge8" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;"Hl. Michael als Drachentöter"</title>
+                            <path style="fill:none;stroke:blue;" d="M154,-97C176,-90 203,-82 227,-77 318,-59 423,-50 495,-46"/>
+                            <polygon style="fill:blue;stroke:blue;" points="495,-49.5001 505,-46 495,-42.5001 495,-49.5001"/>
+                            <text text-anchor="middle" x="275" y="-80.5" style="font-family:Times New Roman;font-size:10.00px;">dcterms:title</text>
+                        </g>
+                    </g>
+                </svg>
+            </p>
+        </div>
+
+        <div class="step">
+            <h2 class="down-75">CVMA - Stufe 04</h2>
+            <h3 class="red up-25">Multilinguale ikonographische Labels via Iconclass</h3>
+            <p class="small up-25"><a href="http://iconclass.org/11G31.rdf">http://iconclass.org/11G31.rdf</a></p>
+            <p class="down-25">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="844pt" height="447pt" viewBox="0.00 0.00 844.00 447.00">
+                    <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 443)">
+                        <title>d1e112</title>
+                        <polygon style="fill:white;stroke:white;" points="-4,4 -4,-443 840,-443 840,4 -4,4"/>
+                        <!-- http://iconclass.org/73G412 -->
+                        <g id="node1" class="node">
+                            <title>http://iconclass.org/73G412</title>
+                            <a xlink:href="http://iconclass.org/73G412" xlink:title="http://iconclass.org/73G412">
+                                <polygon style="fill:none;stroke:black;" points="658,-439.5 512,-439.5 512,-418.5 658,-418.5 658,-439.5"/>
+                                <text text-anchor="middle" x="585" y="-426.5" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://iconclass.org/73G412</text>
+                            </a>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622 -->
+                        <g id="node2" class="node">
+                            <title>http://id.corpusvitrearum.de/images/2622</title>
+                            <a xlink:href="http://id.corpusvitrearum.de/images/2622" xlink:title="crm:E18_Physical_Thing, skos:Concept:\nhttp://id.corpusvitrearum.de/images/2622">
+                                <polygon style="fill:none;stroke:black;" points="215,-271 1,-271 1,-237 215,-237 215,-271"/>
+                                <text text-anchor="middle" x="108" y="-258" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">crm:E18_Physical_Thing, skos:Concept:</text>
+                                <text text-anchor="middle" x="108" y="-245" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://id.corpusvitrearum.de/images/2622</text>
+                            </a>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;http://iconclass.org/73G412 -->
+                        <g id="edge16" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;http://iconclass.org/73G412</title>
+                            <path style="fill:none;stroke:blue;" d="M120,-271C139,-298 180,-349 227,-378 310,-428 425,-436 501,-434"/>
+                            <polygon style="fill:blue;stroke:blue;" points="501,-437.5 511,-434 501,-430.5 501,-437.5"/>
+                            <text text-anchor="middle" x="275" y="-416.5" style="font-family:Times New Roman;font-size:10.00px;">skos:related</text>
+                        </g>
+                        <!-- http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22 -->
+                        <g id="node4" class="node">
+                            <title>http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22</title>
+                            <a xlink:href="http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22" xlink:title="http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22">
+                                <polygon style="fill:none;stroke:black;" points="835,-397.5 335,-397.5 335,-376.5 835,-376.5 835,-397.5"/>
+                                <text text-anchor="middle" x="585" y="-384.5" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22</text>
+                            </a>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22 -->
+                        <g id="edge2" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22</title>
+                            <path style="fill:none;stroke:blue;" d="M136,-271C159,-286 195,-307 227,-323 274,-345 285,-354 334,-366 351,-370 368,-373 386,-376"/>
+                            <polygon style="fill:blue;stroke:blue;" points="385.701,-379.488 396,-377 386.398,-372.522 385.701,-379.488"/>
+                            <text text-anchor="middle" x="275" y="-363.5" style="font-family:Times New Roman;font-size:10.00px;">rdfs:seeAlso</text>
+                        </g>
+                        <!-- &quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan)&quot; -->
+                        <g id="node6" class="node">
+                            <title>"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan)"</title>
+                            <text text-anchor="middle" x="585" y="-341" style="font-family:Times New Roman;font-size:10.00px;">"der Erzengel Michael kämpft gegen den Drachen</text>
+                            <text text-anchor="middle" x="585" y="-328" style="font-family:Times New Roman;font-size:10.00px;">(Teufel, Satan)"</text>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan)&quot; -->
+                        <g id="edge4" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan)"</title>
+                            <path style="fill:none;stroke:blue;" d="M171,-271C216,-283 279,-298 334,-308 371,-314 410,-320 448,-324"/>
+                            <polygon style="fill:blue;stroke:blue;" points="447.701,-327.488 458,-325 448.398,-320.522 447.701,-327.488"/>
+                            <text text-anchor="middle" x="275" y="-308.5" style="font-family:Times New Roman;font-size:10.00px;">skos:prefLabel</text>
+                        </g>
+                        <!-- &quot;Hl. Michael als Drachentöter&quot; -->
+                        <g id="node8" class="node">
+                            <title>"Hl. Michael als Drachentöter"</title>
+                            <text text-anchor="middle" x="585" y="-276.5" style="font-family:Times New Roman;font-size:10.00px;">"Hl. Michael als Drachentöter"</text>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;Hl. Michael als Drachentöter&quot; -->
+                        <g id="edge6" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;"Hl. Michael als Drachentöter"</title>
+                            <path style="fill:none;stroke:blue;" d="M216,-260C299,-264 415,-270 495,-274"/>
+                            <polygon style="fill:blue;stroke:blue;" points="494.701,-277.488 505,-275 495.398,-270.522 494.701,-277.488"/>
+                            <text text-anchor="middle" x="275" y="-267.5" style="font-family:Times New Roman;font-size:10.00px;">dcterms:title</text>
+                        </g>
+                        <!-- http://iconclass.org/11G31 -->
+                        <g id="node10" class="node">
+                            <title>http://iconclass.org/11G31</title>
+                            <a xlink:href="http://iconclass.org/11G31" xlink:title="http://iconclass.org/11G31">
+                                <polygon style="fill:none;stroke:black;" points="655,-239.5 515,-239.5 515,-218.5 655,-218.5 655,-239.5"/>
+                                <text text-anchor="middle" x="585" y="-226.5" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://iconclass.org/11G31</text>
+                            </a>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;http://iconclass.org/11G31 -->
+                        <g id="edge8" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;http://iconclass.org/11G31</title>
+                            <path style="fill:none;stroke:blue;" d="M216,-242C219,-241 223,-241 227,-241 322,-233 431,-231 504,-230"/>
+                            <polygon style="fill:blue;stroke:blue;" points="504,-233.5 514,-230 504,-226.5 504,-233.5"/>
+                            <text text-anchor="middle" x="275" y="-244.5" style="font-family:Times New Roman;font-size:10.00px;">rdfs:seeAlso</text>
+                        </g>
+                        <!-- &quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich&quot; -->
+                        <g id="node12" class="node">
+                            <title>"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich"</title>
+                            <text text-anchor="middle" x="585" y="-184.5" style="font-family:Times New Roman;font-size:10.00px;">"der Erzengel Michael kämpft gegen den Drachen</text>
+                            <text text-anchor="middle" x="585" y="-171.5" style="font-family:Times New Roman;font-size:10.00px;">(Teufel, Satan) Drache · Engel · Erzengel ·</text>
+                            <text text-anchor="middle" x="585" y="-158.5" style="font-family:Times New Roman;font-size:10.00px;">Michael · Religion · Satan · Teufel · christliche</text>
+                            <text text-anchor="middle" x="585" y="-145.5" style="font-family:Times New Roman;font-size:10.00px;">Religion · kämpfen · mit Füßen treten · trampeln ·</text>
+                            <text text-anchor="middle" x="585" y="-132.5" style="font-family:Times New Roman;font-size:10.00px;">übernatürlich"</text>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich&quot; -->
+                        <g id="edge10" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich"</title>
+                            <path style="fill:none;stroke:blue;" d="M155,-237C176,-230 203,-221 227,-216 299,-199 381,-186 448,-176"/>
+                            <polygon style="fill:blue;stroke:blue;" points="448.398,-179.478 458,-175 447.701,-172.512 448.398,-179.478"/>
+                            <text text-anchor="middle" x="275" y="-219.5" style="font-family:Times New Roman;font-size:10.00px;">dcterms:description</text>
+                        </g>
+                        <!-- http://iconclass.org/71E464 -->
+                        <g id="node14" class="node">
+                            <title>http://iconclass.org/71E464</title>
+                            <a xlink:href="http://iconclass.org/71E464" xlink:title="http://iconclass.org/71E464">
+                                <polygon style="fill:none;stroke:black;" points="658,-103.5 512,-103.5 512,-82.5 658,-82.5 658,-103.5"/>
+                                <text text-anchor="middle" x="585" y="-90.5" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://iconclass.org/71E464</text>
+                            </a>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;http://iconclass.org/71E464 -->
+                        <g id="edge12" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;http://iconclass.org/71E464</title>
+                            <path style="fill:none;stroke:blue;" d="M128,-237C165,-206 250,-141 334,-114 388,-96 452,-91 502,-90"/>
+                            <polygon style="fill:blue;stroke:blue;" points="502,-93.5001 512,-90 502,-86.5001 502,-93.5001"/>
+                            <text text-anchor="middle" x="275" y="-165.5" style="font-family:Times New Roman;font-size:10.00px;">skos:related</text>
+                        </g>
+                        <!-- &quot;the Archangel Michael fighting the dragon (devil,\nSatan)&quot; -->
+                        <g id="node16" class="node">
+                            <title>"the Archangel Michael fighting the dragon (devil,\nSatan)"</title>
+                            <text text-anchor="middle" x="585" y="-47" style="font-family:Times New Roman;font-size:10.00px;">"the Archangel Michael fighting the dragon (devil,</text>
+                            <text text-anchor="middle" x="585" y="-34" style="font-family:Times New Roman;font-size:10.00px;">Satan)"</text>
+                        </g>
+                        <!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;the Archangel Michael fighting the dragon (devil,\nSatan)&quot; -->
+                        <g id="edge14" class="edge">
+                            <title>http://id.corpusvitrearum.de/images/2622-&gt;"the Archangel Michael fighting the dragon (devil,\nSatan)"</title>
+                            <path style="fill:none;stroke:blue;" d="M116,-237C133,-205 173,-134 227,-99 292,-56 378,-42 449,-38"/>
+                            <polygon style="fill:blue;stroke:blue;" points="449,-41.5001 459,-38 449,-34.5001 449,-41.5001"/>
+                            <text text-anchor="middle" x="275" y="-102.5" style="font-family:Times New Roman;font-size:10.00px;">skos:prefLabel</text>
+                        </g>
+                    </g>
+                </svg>
+            </p>
+        </div>
+
+        <div class="step">
+            <h2 class="down-25">Raumzeitliche Visualisierungen</h2>
+            <h3 class="red up-25">Bspw. mit Palladio</h3>
+            <div class="row mfp-lightbox">
+                <div class="six columns">
+                    <a href="resources/img/cvma_map_timeline.png">
+                        <img src="resources/img/cvma_map_timeline.png" alt="" title="" width="100%" />
+                    </a>
+                    <p class="medium">Scheiben gruppiert nach Iconclass über die Zeit (Karte)</p>
+                </div>
+                <div class="six columns">
+                    <a href="resources/img/cvma_graph_standorte-iconclass.png">
+                        <img src="resources/img/cvma_graph_standorte-iconclass.png" alt="" title="" width="100%" />
+                    </a>
+                    <p class="medium">Verbindung zwischen geographischen Standorten über Iconclass (Graph)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h1 class="red">03</h1>
+            <h2 class="line-height-one-five">
+                Fallbeispiel II
+            </h2>
+            <h3 class="red">
+                Die Deutschen Inschriften und das Projekt Inschriften im Bezugssystem des Raumes
+            </h3>
+        </div>
+
+        <div class="step">
+            <h2>Epigraphische Plattform</h2>
+            <h3 class="red up-25">Einige Funktionalitäten im Überblick</h3>
+            <div class="row mfp-lightbox">
+                <div class="six columns">
+                    <a href="resources/img/dio_screenshot_01.png">
+                        <img src="resources/img/dio_screenshot_01.png" alt="Screenshot" title="Startseite von Deutsche Inschriften Online" width="100%" />
+                    </a>
+                    <p>
+                        <a class="small" href="http://www.inschriften.net/">http://www.inschriften.net/</a>
+                    </p>
+                </div>
+                <div class="six columns">
+                    <a href="resources/img/dio_odt.png" style="float: left; width: 50%;">
+                        <img src="resources/img/dio_odt.png" alt="" title="" width="100%" />
+                    </a>
+                    <a href="resources/img/dio_bilder.png" style="float: left; width: 50%;">
+                        <img src="resources/img/dio_bilder.png" alt="" title="" width="100%" />
+                    </a>
+                    <ul class="even-left medium down-25" style="clear: both;">
+                        <li>
+                            42 Inschriftenbände bzw. -bestände mit ca. 17.000 Katalognummern und 18.000
+                            Abbildungen
+                        </li>
+                        <li>
+                            Flexible XML Workflows zur Überführung der Banddaten in die Applikation
+                        </li>
+                        <li>
+                            Persistente Referenzierung aller Artikel mittels URN der Deutschen Nationalbibliothek
+                        </li>
+                        <li>
+                            Standardkonforme Ausgabe der Kataloartikel als TEI/EpiDoc via REST-Interface
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>BMBF Projekt (2012-2015)</h2>
+            <h3 class="red up-25">Inschriften im Bezugssystem des Raumes</h3>
+            <div class="row mfp-lightbox">
+                <div class="six columns">
+                    <a href="resources/img/ibr_homepage.png">
+                        <img src="resources/img/ibr_homepage.png" alt="Screenshot" title="Startseite von IBR" width="100%" />
+                    </a>
+                    <p>
+                        <a class="small" href="http://spatialhumanities.de/">http://spatialhumanities.de/</a>
+                    </p>
+                </div>
+                <div class="six columns">
+                    <a href="resources/img/ibr_tls.png" style="float: left; width: 50%;">
+                        <img src="resources/img/ibr_tls.png" alt="" title="" width="100%" />
+                    </a>
+                    <a href="resources/img/ibr_xtriples.png" style="float: left; width: 50%;">
+                        <img src="resources/img/ibr_xtriples.png" alt="" title="" width="100%" />
+                    </a>
+                    <ul class="even-left medium down-25" style="clear: both;">
+                        <li>
+                            Verbindung von Raumdaten (Terrestrisches Laserscanning) mit Fachdaten (RDF) mit dem
+                            Ziel neuer Analysemöglichkeiten
+                        </li>
+                        <li>
+                            Modulare Architektur, gekoppelt über REST-basierte Schnittstellen
+                        </li>
+                        <li>
+                            Webbasiertes Werkzeug zur Erfassung und semantischen Verknüpfung von Raumgeometrien
+                            in der Punktwolke (Generic Viewer)
+                        </li>
+                        <li>
+                            Webservice zum Harvesting und zur Extraktion semantischer Statements aus XML-basierten
+                            Fachdaten (XTriples)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2 class="down-25">IBR Architektur</h2>
+            <h3 class="red up-25">Komponenten</h3>
+            <div class="row mfp-lightbox">
+                <div class="ten columns">
+                    <a href="resources/img/ibr-architecture.jpg">
+                        <img src="resources/img/ibr-architecture.jpg" alt="" title="" width="616" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2 class="down-25">Generic Viewer</h2>
+            <h3 class="red up-25">Funktionen</h3>
+            <div class="row mfp-lightbox">
+                <div class="three columns">
+                    <a href="resources/img/ibr_chor.png">
+                        <img src="resources/img/ibr_chor.png" alt="" title="" width="100%" />
+                    </a>
+                    <p class="medium">Orientierung</p>
+                </div>
+                <div class="three columns">
+                    <a href="resources/img/ibr_langhaus.png">
+                        <img src="resources/img/ibr_langhaus.png" alt="" title="" width="100%" />
+                    </a>
+                    <p class="medium">Messung</p>
+                </div>
+                <div class="three columns">
+                    <a href="resources/img/ibr_lutern.png">
+                        <img src="resources/img/ibr_lutern.png" alt="" title="" width="100%" />
+                    </a>
+                    <p class="medium">Erfassung</p>
+                </div>
+                <div class="three columns">
+                    <a href="resources/img/ibr_triple_composer.png">
+                        <img src="resources/img/ibr_triple_composer.png" alt="" title="" width="100%" />
+                    </a>
+                    <p class="medium">Verknüfpung</p>
+                </div>
+            </div>
+            <h5><strong>Ausprobieren:</strong></h5>
+            <p class="medium">
+                <a href="http://oberwesel.spatialhumanities.de/viewer/">http://oberwesel.spatialhumanities.de/viewer/</a>
+            </p>
+        </div>
+
+        <div class="step">
+            <h2 class="down-25">Referenzstudien</h2>
+            <h3 class="red up-25">Liebfrauenkirche Oberwesel</h3>
+            <div class="row mfp-lightbox">
+                <div class="six columns">
+                    <p>Sichtbarkeit der Bauinschrift</p>
+                    <a href="resources/img/kirchenraeume_2015_005.png">
+                        <img src="resources/img/kirchenraeume_2015_005.png" alt="" title="" width="100%" />
+                    </a>
+                </div>
+                <div class="six columns">
+                    <p>Petrus Lutern / Martha-Altar</p>
+                    <a href="resources/img/kirchenraeume_2015_006.png">
+                        <img src="resources/img/kirchenraeume_2015_006.png" alt="" title="" width="100%" />
+                    </a>
+                </div>
+            </div>
+            <p class="x-small">
+                <strong>Paper:</strong>
+                <a href="http://www.zfdg.de/sb001_015">
+                    Lange, Unold (2015): Semantisch angereicherte 3D-Messdaten von Kirchenräumen als Quellen
+                    für die geschichtswissenschaftliche Forschung, ZFDG 1 (2015), http://www.zfdg.de/sb001_015
+                </a>
+            </p>
+        </div>
+
+        <div class="step">
+            <h1 class="red">04</h1>
+            <h2 class="line-height-one-five">
+                Fallbeispiel III
+            </h2>
+            <h3 class="red">
+                Raumzeitliche Analysen auf dem jüdischen Gedenkfriedhof in Mainz
+            </h3>
+        </div>
+
+        <div class="step">
+            <h2>Epidat</h2>
+            <h3 class="red up-25">Plattform für Jüdische Epigraphik</h3>
+            <div class="row mfp-lightbox">
+                <div class="six columns">
+                    <a href="resources/img/gedenkfriedhof-epidat.png">
+                        <img src="resources/img/gedenkfriedhof-epidat.png" alt="Screenshot" title="Screenshot von Epidat" width="100%" />
+                    </a>
+                    <p>
+                        <a class="small" href="http://www.steinheim-institut.de/cgi-bin/epidat">http://www.steinheim-institut.de/cgi-bin/epidat/</a>
+                    </p>
+                </div>
+                <div class="six columns">
+                    <a href="resources/img/gedenkfriedhof-viewer.png" style="float: left; width: 50%;">
+                        <img src="resources/img/gedenkfriedhof-viewer.png" alt="" title="" width="100%" />
+                    </a>
+                    <a href="resources/img/gedenkfriedhof-sesame.png" style="float: left; width: 50%;">
+                        <img src="resources/img/gedenkfriedhof-sesame.png" alt="" title="" width="100%" />
+                    </a>
+                    <ul class="even-left medium down-25" style="clear: both;">
+                        <li>
+                            176 digitale Editionen mit ca. 32.000 Grabinschriften und ca. 60.000 Bilddateien
+                        </li>
+                        <li>
+                            Maschinenlesbare Daten in TEI/Epidoc-XML über eine REST-Schnittstelle
+                        </li>
+                        <li>
+                            Gemeinsame Fallstudie der Projekte IBR und RIR (Relationen im Raum)
+                        </li>
+                        <li>
+                            Weitere Forschungsarbeiten gerade innerhalb von DARIAH in Cluster 6 (Semantische
+                            Annotationen)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2 class="down-25">XTriples Webservice</h2>
+            <h3 class="red up-25">Komponenten</h3>
+            <div class="row mfp-lightbox">
+                <div class="ten columns">
+                    <a href="resources/img/gedenkfriedhof_xtriples.png">
+                        <img src="resources/img/gedenkfriedhof_xtriples.png" alt="" title="" width="100%" />
+                    </a>
+                </div>
+            </div>
+            <p>
+                <a href="http://xtriples.spatialhumanities.de/"></a>
+            </p>
+        </div>
+
+        <div class="step">
+            <h2>RDF Datenmodell</h2>
+            <h3 class="red up-25">Jüdischer Gedenkfriedhof in Mainz</h3>
+            <div class="row mfp-lightbox">
+                <div class="six columns">
+                    <a href="data/svg/mz2-2208.svg">
+                        <img src="data/svg/mz2-2208.svg" width="100%" />
+                    </a>
+                </div>
+                <div class="six columns">
+                    <a href="resources/img/gedenkfriedhof-graph.png">
+                        <img src="resources/img/gedenkfriedhof-graph.png" alt="" title="" width="100%" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Analysemöglichkeiten</h2>
+            <h3 class="red up-25">Lageverteilung der Gräber von Männern und Frauen</h3>
+            <div class="row mfp-lightbox">
+                <div class="six columns">
+                    <a href="resources/img/gedenkfriedhof-maenner.png">
+                        <img src="resources/img/gedenkfriedhof-maenner.png" width="100%" />
+                    </a>
+                    <p class="small">Lage der Männgergräber</p>
+                </div>
+                <div class="six columns">
+                    <a href="resources/img/gedenkfriedhof-frauen.png">
+                        <img src="resources/img/gedenkfriedhof-frauen.png" alt="" title="" width="100%" />
+                    </a>
+                    <p class="small">Lage der Frauengräber</p>
+                </div>
+            </div>
         </div>
 
         <div class="step">
             <div class="centered">
                 <h1>F I N I S</h1>
-                <h2>Thank you</h2>
+                <h2>Vielen Dank für Ihre Aufmerksamkeit</h2>
             </div>
         </div>
 
         <div class="step">
 
-            <h2>Literature &amp; Software</h2>
+            <h2>Links &amp; Software</h2>
 
-            <h4>Literature</h4>
+            <h4>Links</h4>
 
             <ul class="small">
                 <li>
-                    One
+                    <a href="http://oberwesel.spatialhumanities.de">GenericViewer Demo</a>
                 </li>
                 <li>
-                    Two
+                    <a href="http://xtriples.spatialhumanities.de">XTriples Webservice</a>
                 </li>
                 <li>
-                    Three
+                    <a href="http://dhd2016.digitale-akademie.de/presentation/">Slides: Geisteswissenschaftliche Fachdaten im Semantic Web</a>
+                </li>
+                <li>
+                    <a href="https://digicademy.github.io/dariah-workshop2016-xtriples-cidoc/">Slides: CIDOC-CRM epigraphischer Fachdaten</a>
                 </li>
             </ul>
 
@@ -606,25 +1039,34 @@ WHERE {
 
             <ul class="small">
                 <li>
-                    One
+                    <a href="https://github.com/impress/impress.js">Impress.js</a> (Präsentation)
                 </li>
                 <li>
-                   Two
+                    <a href="https://jquery.com/">jQuery</a> (Animationen)
                 </li>
                 <li>
-                    Three
+                    <a href="https://github.com/vvvmax/unitegallery/">Unite Gallery</a> (Bildergallerien)
+                </li>
+                <li>
+                    <a href="https://github.com/dimsemenov/Magnific-Popup">Magnific Popup</a> (Lightbox)
+                </li>
+                <li>
+                    <a href="https://github.com/gionkunz/chartist-js">Chartist</a> (Diagramme)
+                </li>
+                <li>
+                    <a href="http://getskeleton.com/">Skeleton CSS</a> (CSS Boilerplate)
                 </li>
             </ul>
 
             <h4>Download</h4>
             <ul class="small">
                 <li>
-                    <a href="#">
-                        Link to presentation
+                    <a href="https://github.com/metacontext/2017-ws-deckenmalerei">
+                        https://github.com/metacontext/2017-ws-deckenmalerei
                     </a>
                 </li>
                 <li>
-                    License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>, Author
+                    License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>, Torsten Schrade
                 </li>
             </ul>
         </div>
@@ -633,23 +1075,6 @@ WHERE {
 
     <!-- jquery -->
     <script src="vendor/jquery/jquery-1.11.0.min.js"></script>
-
-    <!-- chartist -->
-    <script src="vendor/chartist/chartist.min-0.9.7.js"></script>
-    <script src="resources/js/chartist.charts.js"></script>
-
-    <!-- codemirror -->
-    <script src="vendor/codemirror/lib/codemirror.js"></script>
-    <script src="vendor/codemirror/addon/edit/matchbrackets.js"></script>
-    <script src="vendor/codemirror/mode/sparql/sparql.js"></script>
-    <script>
-        var editor = CodeMirror.fromTextArea(document.getElementById("sparql"), {
-            mode: "application/sparql-query",
-            matchBrackets: true,
-            lineNumbers: true,
-            viewportMargin: Infinity
-        });
-    </script>
 
     <!-- highlight -->
     <script src="vendor/highlight/highlight.pack-9.3.0.js"></script>
